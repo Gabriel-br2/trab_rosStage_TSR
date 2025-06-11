@@ -3,6 +3,14 @@
 
 Este repositório contém o código para o trabalho de tópicos em Sistemas Robóticos - Graduação EAUTO 2025 - que implementa um robô diferencial autônomo usando ROS2 e o simulador Stage. O robô é capaz de navegar para múltiplos pontos de destino, evitando obstáculos de forma autônoma.
 
+#### Desenvolvido por
+
+> Gabriel Rocha de Souza - 150888 - EAUTO 2025
+
+> Rafaella Quaresma Lourenço - 149400 - EAUTO 2025
+
+---
+
 ### Links
 
 link para video do youtube: https://youtu.be/4gyGEZgXPDE
