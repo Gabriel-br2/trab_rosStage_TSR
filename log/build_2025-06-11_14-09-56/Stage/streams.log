@@ -1,0 +1,129 @@
+[0.083s] Invoking command in '/home/rafaella/ros2_ws/build/Stage': /usr/bin/cmake --build /home/rafaella/ros2_ws/build/Stage -- -j4 -l4
+[0.513s] [ 57%] Built target stage
+[0.729s] [ 61%] Built target stagebinary
+[0.729s] [ 64%] Built target source
+[0.741s] [ 67%] Built target sink
+[0.758s] [ 71%] Built target fasr
+[0.917s] [ 74%] Built target wander
+[1.007s] [ 77%] Built target pioneer_flocking
+[1.008s] [ 81%] Built target rasterize
+[1.016s] [ 84%] Built target lasernoise
+[1.166s] [ 88%] Built target dynamic
+[1.180s] [ 93%] Built target fasr2
+[1.208s] [ 96%] Built target expand_swarm
+[1.229s] [100%] Built target expand_pioneer
+[1.903s] Invoked command in '/home/rafaella/ros2_ws/build/Stage' returned '0': /usr/bin/cmake --build /home/rafaella/ros2_ws/build/Stage -- -j4 -l4
+[1.940s] Invoking command in '/home/rafaella/ros2_ws/build/Stage': /usr/bin/cmake --install /home/rafaella/ros2_ws/build/Stage
+[1.975s] -- Install configuration: "RELEASE"
+[1.975s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/pkgconfig/stage.pc
+[1.976s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/cmake/Stage/stage-config.cmake
+[1.976s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/cmake/Stage/stage-config-version.cmake
+[1.977s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/bin/stage
+[1.979s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/libstage.so.4.3.0
+[1.980s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/libstage.so
+[1.982s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/include/Stage-4.3/stage.hh
+[1.982s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/fasr.so
+[1.985s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/sink.so
+[1.986s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/source.so
+[1.987s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/wander.so
+[1.989s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/pioneer_flocking.so
+[1.990s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/rasterize.so
+[1.992s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/lasernoise.so
+[1.993s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/dynamic.so
+[1.995s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/fasr2.so
+[1.997s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/blue.png
+[1.997s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/death.png
+[1.997s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/green.png
+[2.002s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/logo.png
+[2.002s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/mains.png
+[2.003s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/mainspower.png
+[2.004s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/question_mark.png
+[2.004s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/red.png
+[2.004s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/stagelogo.png
+[2.006s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/stall-old.png
+[2.006s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/stall.png
+[2.006s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/rgb.txt
+[2.007s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/rgb.txt
+[2.007s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/amcl-sonar.cfg
+[2.007s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/autolab.cfg
+[2.008s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/camera.cfg
+[2.008s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/everything.cfg
+[2.008s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/lsp_test.cfg
+[2.009s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/mbicp.cfg
+[2.009s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/nd.cfg
+[2.010s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/roomba.cfg
+[2.010s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/simple.cfg
+[2.010s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/test.cfg
+[2.011s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/uoa_robotics_lab.cfg
+[2.012s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/vfh.cfg
+[2.013s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wavefront-remote.cfg
+[2.013s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wavefront.cfg
+[2.014s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi.cfg
+[2.014s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/SFU.world
+[2.015s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/autolab.world
+[2.015s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/camera.world
+[2.015s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/circuit.world
+[2.016s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/everything.world
+[2.016s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/fasr.world
+[2.017s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/fasr2.world
+[2.017s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/fasr_plan.world
+[2.017s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/large.world
+[2.018s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/lsp_test.world
+[2.018s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/mbicp.world
+[2.018s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/pioneer_flocking.world
+[2.019s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/pioneer_follow.world
+[2.019s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/pioneer_walle.world
+[2.021s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/roomba.world
+[2.021s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/sensor_noise_demo.world
+[2.021s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/sensor_noise_module_demo.world
+[2.022s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/simple.world
+[2.022s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/uoa_robotics_lab.world
+[2.022s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi.world
+[2.023s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/beacons.inc
+[2.023s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/chatterbox.inc
+[2.023s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/hokuyo.inc
+[2.024s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/irobot.inc
+[2.024s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/map.inc
+[2.025s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/objects.inc
+[2.025s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/pantilt.inc
+[2.026s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/pioneer.inc
+[2.031s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/sick.inc
+[2.031s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/ubot.inc
+[2.032s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/uoa_robotics_lab_models.inc
+[2.033s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/walle.inc
+[2.034s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/cfggen.sh
+[2.034s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/test.sh
+[2.035s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/worldgen.sh
+[2.035s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/expand_swarm.so
+[2.036s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/expand_pioneer.so
+[2.036s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/889_05.png
+[2.036s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/SFU_1200x615.png
+[2.037s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/SRI-AIC-kwing.png
+[2.037s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/autolab.png
+[2.037s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/cave.png
+[2.044s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/cave_compact.png
+[2.044s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/cave_filled.png
+[2.044s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/frieburg.png
+[2.045s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/ghost.png
+[2.045s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/hospital.png
+[2.045s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/hospital_section.png
+[2.045s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/human_outline.png
+[2.046s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/mbicp.png
+[2.046s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/rink.png
+[2.046s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/sal2.png
+[2.046s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/simple_rooms.png
+[2.046s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/space_invader.png
+[2.052s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/submarine.png
+[2.059s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/submarine_small.png
+[2.059s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/table.png
+[2.059s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/uoa_robotics_lab.png
+[2.060s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi/commando.world
+[2.060s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi/hosp_wifi.world
+[2.060s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi/hosp_wifi_5.world
+[2.060s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi/wifi.world
+[2.066s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi/wifi_itu.world
+[2.066s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi/wifi_logdistance.world
+[2.066s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi/wifi_ray.world
+[2.067s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi/wifi_simple.world
+[2.067s] -- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi/map.inc
+[2.067s] Invoked command in '/home/rafaella/ros2_ws/build/Stage' returned '0': /usr/bin/cmake --install /home/rafaella/ros2_ws/build/Stage

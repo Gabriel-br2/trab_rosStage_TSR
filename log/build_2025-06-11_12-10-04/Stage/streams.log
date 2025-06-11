@@ -1,0 +1,14 @@
+[0.060s] Invoking command in '/home/rafaella/ros2_ws/build/Stage': /usr/bin/cmake --build /home/rafaella/ros2_ws/build/Stage -- -j4 -l4
+[0.295s] [ 57%] Built target stage
+[0.412s] [ 61%] Built target fasr
+[0.425s] [ 64%] Built target stagebinary
+[0.444s] [ 67%] Built target sink
+[0.476s] [ 71%] Built target source
+[0.606s] [ 74%] Built target pioneer_flocking
+[0.613s] [ 79%] Built target rasterize
+[0.618s] [ 81%] Built target wander
+[0.626s] [ 84%] Built target lasernoise
+[0.751s] [ 88%] Built target dynamic
+[0.767s] [ 91%] Built target expand_pioneer
+[0.774s] [ 94%] Built target expand_swarm
+[0.803s] [100%] Built target fasr2

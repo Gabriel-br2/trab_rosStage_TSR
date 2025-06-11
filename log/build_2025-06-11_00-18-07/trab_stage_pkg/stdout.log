@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing trab_stage_pkg.egg-info/PKG-INFO
+writing dependency_links to trab_stage_pkg.egg-info/dependency_links.txt
+writing entry points to trab_stage_pkg.egg-info/entry_points.txt
+writing requirements to trab_stage_pkg.egg-info/requires.txt
+writing top-level names to trab_stage_pkg.egg-info/top_level.txt
+reading manifest file 'trab_stage_pkg.egg-info/SOURCES.txt'
+writing manifest file 'trab_stage_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages/trab-stage-pkg.egg-link (link to .)
+Installing publisher script to /home/rafaella/ros2_ws/install/trab_stage_pkg/lib/trab_stage_pkg
+Installing py_node script to /home/rafaella/ros2_ws/install/trab_stage_pkg/lib/trab_stage_pkg
+Installing subscriber script to /home/rafaella/ros2_ws/install/trab_stage_pkg/lib/trab_stage_pkg
+
+Installed /home/rafaella/ros2_ws/build/trab_stage_pkg
+running symlink_data

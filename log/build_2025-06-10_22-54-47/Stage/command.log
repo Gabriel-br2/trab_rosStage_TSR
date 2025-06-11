@@ -1,0 +1,6 @@
+Invoking command in '/home/rafaella/ros2_ws/build/Stage': /usr/bin/cmake /home/rafaella/ros2_ws/src/Stage -DCMAKE_INSTALL_PREFIX=/home/rafaella/ros2_ws/install/Stage
+Invoked command in '/home/rafaella/ros2_ws/build/Stage' returned '0': /usr/bin/cmake /home/rafaella/ros2_ws/src/Stage -DCMAKE_INSTALL_PREFIX=/home/rafaella/ros2_ws/install/Stage
+Invoking command in '/home/rafaella/ros2_ws/build/Stage': /usr/bin/cmake --build /home/rafaella/ros2_ws/build/Stage -- -j4 -l4
+Invoked command in '/home/rafaella/ros2_ws/build/Stage' returned '0': /usr/bin/cmake --build /home/rafaella/ros2_ws/build/Stage -- -j4 -l4
+Invoking command in '/home/rafaella/ros2_ws/build/Stage': /usr/bin/cmake --install /home/rafaella/ros2_ws/build/Stage
+Invoked command in '/home/rafaella/ros2_ws/build/Stage' returned '0': /usr/bin/cmake --install /home/rafaella/ros2_ws/build/Stage

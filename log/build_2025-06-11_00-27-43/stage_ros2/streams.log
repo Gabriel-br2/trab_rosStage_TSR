@@ -1,0 +1,96 @@
+[0.027s] Invoking command in '/home/rafaella/ros2_ws/build/stage_ros2': CMAKE_PREFIX_PATH=/home/rafaella/ros2_ws/install/Stage:/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/trab_stage_pkg:/opt/ros/humble:/home/rafaella/ros2_ws/install/stage LD_LIBRARY_PATH=/home/rafaella/ros2_ws/install/Stage/lib:/home/rafaella/ros2_ws/install/stage_ros2/lib:/home/rafaella/ros2_ws/install/stage/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PATH=/home/rafaella/ros2_ws/install/Stage/bin:/home/rafaella/ros2_ws/install/stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin /usr/bin/cmake /home/rafaella/ros2_ws/src/stage_ros2 -DCMAKE_INSTALL_PREFIX=/home/rafaella/ros2_ws/install/stage_ros2
+[0.065s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.383s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.409s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.477s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.486s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.502s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.529s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.566s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.654s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.659s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.927s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.089s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.137s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.206s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.242s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.379s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.386s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.389s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.392s] -- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.423s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.633s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.635s] -- Configured cppcheck include dirs: /home/rafaella/ros2_ws/src/stage_ros2/./include;$<BUILD_INTERFACE:/home/rafaella/ros2_ws/src/stage_ros2/include>
+[1.636s] -- Configured cppcheck exclude dirs and/or files: 
+[1.638s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.643s] -- Added test 'lint_cmake' to check CMake code style
+[1.646s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.663s] -- Added test 'uncrustify' to check C / C++ code style
+[1.664s] -- Configured uncrustify additional arguments: 
+[1.667s] -- Added test 'xmllint' to check XML markup files
+[1.684s] -- Added test 'clang_format' to check C / C++ code style
+[1.687s] -- Added test 'pycodestyle' to check Python code against some of the style conventions in PEP 8
+[1.689s] -- Configuring done
+[1.755s] -- Generating done
+[1.778s] -- Build files have been written to: /home/rafaella/ros2_ws/build/stage_ros2
+[1.803s] Invoked command in '/home/rafaella/ros2_ws/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/rafaella/ros2_ws/install/Stage:/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/trab_stage_pkg:/opt/ros/humble:/home/rafaella/ros2_ws/install/stage LD_LIBRARY_PATH=/home/rafaella/ros2_ws/install/Stage/lib:/home/rafaella/ros2_ws/install/stage_ros2/lib:/home/rafaella/ros2_ws/install/stage/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PATH=/home/rafaella/ros2_ws/install/Stage/bin:/home/rafaella/ros2_ws/install/stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin /usr/bin/cmake /home/rafaella/ros2_ws/src/stage_ros2 -DCMAKE_INSTALL_PREFIX=/home/rafaella/ros2_ws/install/stage_ros2
+[1.811s] Invoking command in '/home/rafaella/ros2_ws/build/stage_ros2': CMAKE_PREFIX_PATH=/home/rafaella/ros2_ws/install/Stage:/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/trab_stage_pkg:/opt/ros/humble:/home/rafaella/ros2_ws/install/stage LD_LIBRARY_PATH=/home/rafaella/ros2_ws/install/Stage/lib:/home/rafaella/ros2_ws/install/stage_ros2/lib:/home/rafaella/ros2_ws/install/stage/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PATH=/home/rafaella/ros2_ws/install/Stage/bin:/home/rafaella/ros2_ws/install/stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin /usr/bin/cmake --build /home/rafaella/ros2_ws/build/stage_ros2 -- -j4 -l4
+[1.920s] [35m[1mConsolidate compiler generated dependencies of target stage_node[0m
+[2.014s] [ 71%] Built target stage_node
+[2.043s] [35m[1mConsolidate compiler generated dependencies of target stage_ros2[0m
+[2.109s] [100%] Built target stage_ros2
+[2.138s] Invoked command in '/home/rafaella/ros2_ws/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/rafaella/ros2_ws/install/Stage:/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/trab_stage_pkg:/opt/ros/humble:/home/rafaella/ros2_ws/install/stage LD_LIBRARY_PATH=/home/rafaella/ros2_ws/install/Stage/lib:/home/rafaella/ros2_ws/install/stage_ros2/lib:/home/rafaella/ros2_ws/install/stage/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PATH=/home/rafaella/ros2_ws/install/Stage/bin:/home/rafaella/ros2_ws/install/stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin /usr/bin/cmake --build /home/rafaella/ros2_ws/build/stage_ros2 -- -j4 -l4
+[2.144s] Invoking command in '/home/rafaella/ros2_ws/build/stage_ros2': CMAKE_PREFIX_PATH=/home/rafaella/ros2_ws/install/Stage:/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/trab_stage_pkg:/opt/ros/humble:/home/rafaella/ros2_ws/install/stage LD_LIBRARY_PATH=/home/rafaella/ros2_ws/install/Stage/lib:/home/rafaella/ros2_ws/install/stage_ros2/lib:/home/rafaella/ros2_ws/install/stage/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PATH=/home/rafaella/ros2_ws/install/Stage/bin:/home/rafaella/ros2_ws/install/stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin /usr/bin/cmake --install /home/rafaella/ros2_ws/build/stage_ros2
+[2.161s] -- Install configuration: ""
+[2.163s] -- Execute custom install script
+[2.164s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/environment/library_path.sh
+[2.168s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/environment/library_path.dsv
+[2.168s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//launch/demo.launch.py
+[2.169s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//launch/f710.launch.py
+[2.169s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//launch/rviz.launch.py
+[2.170s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//launch/rviz_ns.launch.py
+[2.170s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//launch/stage.launch.py
+[2.171s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/cave.png
+[2.171s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.pgm
+[2.172s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.png
+[2.172s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/line.png
+[2.173s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/straden.png
+[2.173s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse008.pgm
+[2.174s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse032.pgm
+[2.175s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse200.pgm
+[2.175s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/willow-full.pgm
+[2.176s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/cave.world
+[2.176s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/cave_seven_robots.world
+[2.177s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/cave_three_robots.world
+[2.180s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/hallway.world
+[2.180s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/include/pioneer2dx.inc
+[2.181s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/include/robots.inc
+[2.181s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/lines.world
+[2.182s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/straden.world
+[2.182s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/willow-four-erratics-multisensor.world
+[2.183s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave.rviz
+[2.183s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave_seven_robots.rviz
+[2.184s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave_three_robots.rviz
+[2.184s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/lines.rviz
+[2.185s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot0.rviz
+[2.185s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns.rviz
+[2.186s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns_depth.rviz
+[2.186s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy/f710.config.yaml
+[2.187s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/lib/libstage_node.so
+[2.188s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/lib/stage_ros2/stage_ros2
+[2.189s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2
+[2.190s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2
+[2.190s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh
+[2.191s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv
+[2.192s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/environment/path.sh
+[2.192s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/environment/path.dsv
+[2.193s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.bash
+[2.194s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.sh
+[2.194s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.zsh
+[2.195s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.dsv
+[2.196s] -- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/package.dsv
+[2.217s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2
+[2.217s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake
+[2.218s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake
+[2.218s] -- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/package.xml
+[2.225s] Invoked command in '/home/rafaella/ros2_ws/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/rafaella/ros2_ws/install/Stage:/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/trab_stage_pkg:/opt/ros/humble:/home/rafaella/ros2_ws/install/stage LD_LIBRARY_PATH=/home/rafaella/ros2_ws/install/Stage/lib:/home/rafaella/ros2_ws/install/stage_ros2/lib:/home/rafaella/ros2_ws/install/stage/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PATH=/home/rafaella/ros2_ws/install/Stage/bin:/home/rafaella/ros2_ws/install/stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin /usr/bin/cmake --install /home/rafaella/ros2_ws/build/stage_ros2

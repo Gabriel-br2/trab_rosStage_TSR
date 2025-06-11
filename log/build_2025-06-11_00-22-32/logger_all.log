@@ -1,0 +1,184 @@
+[0.784s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'stage_ros2']
+[0.785s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['stage_ros2'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], bazel_args=None, bazel_task=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, meson_args=[], ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_alias.argument_parser.alias.AliasArgumentDecorator object at 0x7fa61f3f8250>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa61f5a5ed0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa61f5a5ed0>>, mixin_verb=('build',))
+[1.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.217s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rafaella/ros2_ws'
+[1.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['bazel', 'cmake', 'meson', 'python']
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'bazel'
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'meson'
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['bazel', 'cmake', 'meson', 'python']
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'bazel'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'meson'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['ignore', 'ignore_ament_install']
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'ignore'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'ignore_ament_install'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['colcon_pkg']
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'colcon_pkg'
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['colcon_meta']
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'colcon_meta'
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['ros']
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'ros'
+[1.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Stage' with type 'ros.catkin' and name 'stage'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'ignore'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'ignore_ament_install'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['colcon_pkg']
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'colcon_pkg'
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['colcon_meta']
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'colcon_meta'
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['ros']
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'ros'
+[1.236s] DEBUG:colcon.colcon_core.package_identification:Package 'src/stage_ros2' with type 'ros.ament_cmake' and name 'stage_ros2'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/trab_stage_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/trab_stage_pkg) by extension 'ignore'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/trab_stage_pkg) by extension 'ignore_ament_install'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/trab_stage_pkg) by extensions ['colcon_pkg']
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/trab_stage_pkg) by extension 'colcon_pkg'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/trab_stage_pkg) by extensions ['colcon_meta']
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/trab_stage_pkg) by extension 'colcon_meta'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/trab_stage_pkg) by extensions ['ros']
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/trab_stage_pkg) by extension 'ros'
+[1.239s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trab_stage_pkg' with type 'ros.ament_python' and name 'trab_stage_pkg'
+[1.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.272s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'stage' in 'src/Stage'
+[1.272s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'trab_stage_pkg' in 'src/trab_stage_pkg'
+[1.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.277s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/rafaella/ros2_ws/install
+[1.279s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 186 installed packages in /opt/ros/humble
+[1.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.360s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'bazel_args' from command line to 'None'
+[1.361s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'bazel_task' from command line to 'None'
+[1.361s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_args' from command line to 'None'
+[1.361s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_target' from command line to 'None'
+[1.361s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.361s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.361s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.361s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.361s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'meson_args' from command line to '[]'
+[1.361s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.361s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.361s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.362s] DEBUG:colcon.colcon_core.verb:Building package 'stage_ros2' with the following arguments: {'ament_cmake_args': None, 'bazel_args': None, 'bazel_task': None, 'build_base': '/home/rafaella/ros2_ws/build/stage_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rafaella/ros2_ws/install/stage_ros2', 'merge_install': False, 'meson_args': [], 'path': '/home/rafaella/ros2_ws/src/stage_ros2', 'symlink_install': True, 'test_result_base': None}
+[1.362s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.364s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.365s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rafaella/ros2_ws/src/stage_ros2' with build type 'ament_cmake'
+[1.365s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rafaella/ros2_ws/src/stage_ros2'
+[1.372s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.372s] DEBUG:colcon.colcon_ros_domain_id_coordinator.shell.ros_domain_id:Allocated ROS_DOMAIN_ID=94 for '/home/rafaella/ros2_ws/build/stage_ros2'
+[1.372s] INFO:colcon.colcon_core.shell:Skip shell extension 'ros_domain_id' for command environment: 
+[1.372s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.372s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rafaella/ros2_ws/build/stage_ros2': CMAKE_PREFIX_PATH=/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/trab_stage_pkg:/opt/ros/humble:/home/rafaella/ros2_ws/install/stage:/home/rafaella/ros2_ws/install/Stage /usr/bin/cmake /home/rafaella/ros2_ws/src/stage_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rafaella/ros2_ws/install/stage_ros2
+[2.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rafaella/ros2_ws/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/trab_stage_pkg:/opt/ros/humble:/home/rafaella/ros2_ws/install/stage:/home/rafaella/ros2_ws/install/Stage /usr/bin/cmake /home/rafaella/ros2_ws/src/stage_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rafaella/ros2_ws/install/stage_ros2
+[2.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rafaella/ros2_ws/build/stage_ros2': CMAKE_PREFIX_PATH=/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/trab_stage_pkg:/opt/ros/humble:/home/rafaella/ros2_ws/install/stage:/home/rafaella/ros2_ws/install/Stage /usr/bin/cmake --build /home/rafaella/ros2_ws/build/stage_ros2 -- -j4 -l4
+[3.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rafaella/ros2_ws/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/trab_stage_pkg:/opt/ros/humble:/home/rafaella/ros2_ws/install/stage:/home/rafaella/ros2_ws/install/Stage /usr/bin/cmake --build /home/rafaella/ros2_ws/build/stage_ros2 -- -j4 -l4
+[3.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rafaella/ros2_ws/build/stage_ros2': CMAKE_PREFIX_PATH=/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/trab_stage_pkg:/opt/ros/humble:/home/rafaella/ros2_ws/install/stage:/home/rafaella/ros2_ws/install/Stage /usr/bin/cmake --install /home/rafaella/ros2_ws/build/stage_ros2
+[3.145s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stage_ros2)
+[3.146s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rafaella/ros2_ws/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/trab_stage_pkg:/opt/ros/humble:/home/rafaella/ros2_ws/install/stage:/home/rafaella/ros2_ws/install/Stage /usr/bin/cmake --install /home/rafaella/ros2_ws/build/stage_ros2
+[3.151s] Level 1:colcon.colcon_core.environment:checking '/home/rafaella/ros2_ws/install/stage_ros2' for CMake module files
+[3.153s] Level 1:colcon.colcon_core.environment:checking '/home/rafaella/ros2_ws/install/stage_ros2' for CMake config files
+[3.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'cmake_prefix_path')
+[3.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.ps1'
+[3.155s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.dsv'
+[3.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.sh'
+[3.158s] Level 1:colcon.colcon_core.environment:checking '/home/rafaella/ros2_ws/install/stage_ros2/lib'
+[3.158s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'ld_library_path_lib')
+[3.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.ps1'
+[3.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.dsv'
+[3.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.sh'
+[3.162s] Level 1:colcon.colcon_core.environment:checking '/home/rafaella/ros2_ws/install/stage_ros2/bin'
+[3.162s] Level 1:colcon.colcon_core.environment:checking '/home/rafaella/ros2_ws/install/stage_ros2/lib/pkgconfig/stage_ros2.pc'
+[3.163s] Level 1:colcon.colcon_core.environment:checking '/home/rafaella/ros2_ws/install/stage_ros2/lib/python3.10/site-packages'
+[3.163s] Level 1:colcon.colcon_core.environment:checking '/home/rafaella/ros2_ws/install/stage_ros2/bin'
+[3.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/package.ps1'
+[3.166s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/package.dsv'
+[3.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/package.sh'
+[3.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/package.bash'
+[3.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/package.zsh'
+[3.172s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rafaella/ros2_ws/install/stage_ros2/share/colcon-core/packages/stage_ros2)
+[3.173s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stage_ros2)
+[3.174s] Level 1:colcon.colcon_core.environment:checking '/home/rafaella/ros2_ws/install/stage_ros2' for CMake module files
+[3.175s] Level 1:colcon.colcon_core.environment:checking '/home/rafaella/ros2_ws/install/stage_ros2' for CMake config files
+[3.176s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'cmake_prefix_path')
+[3.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.ps1'
+[3.177s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.dsv'
+[3.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.sh'
+[3.179s] Level 1:colcon.colcon_core.environment:checking '/home/rafaella/ros2_ws/install/stage_ros2/lib'
+[3.180s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'ld_library_path_lib')
+[3.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.ps1'
+[3.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.dsv'
+[3.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.sh'
+[3.182s] Level 1:colcon.colcon_core.environment:checking '/home/rafaella/ros2_ws/install/stage_ros2/bin'
+[3.183s] Level 1:colcon.colcon_core.environment:checking '/home/rafaella/ros2_ws/install/stage_ros2/lib/pkgconfig/stage_ros2.pc'
+[3.183s] Level 1:colcon.colcon_core.environment:checking '/home/rafaella/ros2_ws/install/stage_ros2/lib/python3.10/site-packages'
+[3.183s] Level 1:colcon.colcon_core.environment:checking '/home/rafaella/ros2_ws/install/stage_ros2/bin'
+[3.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/package.ps1'
+[3.185s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/package.dsv'
+[3.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/package.sh'
+[3.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/package.bash'
+[3.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/package.zsh'
+[3.189s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rafaella/ros2_ws/install/stage_ros2/share/colcon-core/packages/stage_ros2)
+[3.190s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.190s] DEBUG:colcon.colcon_ros_domain_id_coordinator.shell.ros_domain_id:Released ROS_DOMAIN_ID=94 for '/home/rafaella/ros2_ws/build/stage_ros2'
+[3.190s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.191s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.191s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.202s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.202s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.202s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.229s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.230s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rafaella/ros2_ws/install/local_setup.ps1'
+[3.234s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rafaella/ros2_ws/install/_local_setup_util_ps1.py'
+[3.239s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rafaella/ros2_ws/install/setup.ps1'
+[3.243s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rafaella/ros2_ws/install/local_setup.sh'
+[3.244s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rafaella/ros2_ws/install/_local_setup_util_sh.py'
+[3.245s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rafaella/ros2_ws/install/setup.sh'
+[3.248s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rafaella/ros2_ws/install/local_setup.bash'
+[3.250s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rafaella/ros2_ws/install/setup.bash'
+[3.252s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rafaella/ros2_ws/install/local_setup.zsh'
+[3.253s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rafaella/ros2_ws/install/setup.zsh'
+[3.256s] INFO:colcon.colcon_core.shell:Creating '/home/rafaella/ros2_ws/install/spawn_shell.bash'

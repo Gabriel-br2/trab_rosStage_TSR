@@ -1,0 +1,26 @@
+[2.779s] Invoking command in '/home/rafaella/ros2_ws/build/trab_stage_pkg': PYTHONPATH=/home/rafaella/ros2_ws/build/trab_stage_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rafaella/ros2_ws/build/trab_stage_pkg/build --no-deps symlink_data
+[3.879s] running develop
+[5.773s] running egg_info
+[5.774s] creating trab_stage_pkg.egg-info
+[5.776s] writing trab_stage_pkg.egg-info/PKG-INFO
+[5.780s] writing dependency_links to trab_stage_pkg.egg-info/dependency_links.txt
+[5.782s] writing entry points to trab_stage_pkg.egg-info/entry_points.txt
+[5.784s] writing requirements to trab_stage_pkg.egg-info/requires.txt
+[5.785s] writing top-level names to trab_stage_pkg.egg-info/top_level.txt
+[5.790s] writing manifest file 'trab_stage_pkg.egg-info/SOURCES.txt'
+[5.801s] reading manifest file 'trab_stage_pkg.egg-info/SOURCES.txt'
+[5.804s] writing manifest file 'trab_stage_pkg.egg-info/SOURCES.txt'
+[5.813s] running build_ext
+[5.814s] Creating /home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages/trab-stage-pkg.egg-link (link to .)
+[5.819s] Installing publisher script to /home/rafaella/ros2_ws/install/trab_stage_pkg/lib/trab_stage_pkg
+[5.823s] Installing py_node script to /home/rafaella/ros2_ws/install/trab_stage_pkg/lib/trab_stage_pkg
+[5.825s] Installing subscriber script to /home/rafaella/ros2_ws/install/trab_stage_pkg/lib/trab_stage_pkg
+[5.829s] 
+[5.829s] Installed /home/rafaella/ros2_ws/build/trab_stage_pkg
+[5.830s] running symlink_data
+[5.830s] creating /home/rafaella/ros2_ws/install/trab_stage_pkg/share/ament_index
+[5.831s] creating /home/rafaella/ros2_ws/install/trab_stage_pkg/share/ament_index/resource_index
+[5.831s] creating /home/rafaella/ros2_ws/install/trab_stage_pkg/share/ament_index/resource_index/packages
+[5.832s] symbolically linking /home/rafaella/ros2_ws/build/trab_stage_pkg/resource/trab_stage_pkg -> /home/rafaella/ros2_ws/install/trab_stage_pkg/share/ament_index/resource_index/packages
+[5.832s] symbolically linking /home/rafaella/ros2_ws/build/trab_stage_pkg/package.xml -> /home/rafaella/ros2_ws/install/trab_stage_pkg/share/trab_stage_pkg
+[6.093s] Invoked command in '/home/rafaella/ros2_ws/build/trab_stage_pkg' returned '0': PYTHONPATH=/home/rafaella/ros2_ws/build/trab_stage_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rafaella/ros2_ws/build/trab_stage_pkg/build --no-deps symlink_data

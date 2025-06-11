@@ -1,0 +1,6 @@
+[console_scripts]
+publisher = trab_stage_pkg.publisher:main
+py_node = trab_stage_pkg.main_node:main
+robot = trab_stage_pkg.robot:main
+subscriber = trab_stage_pkg.subscriber:main
+

@@ -1,0 +1,32 @@
+[7.098s] Invoking command in '/home/rafaella/ros2_ws/src/trab_stage_pkg': PYTHONPATH=/home/rafaella/ros2_ws/build/trab_stage_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trab_stage_pkg build --build-base /home/rafaella/ros2_ws/build/trab_stage_pkg/build install --record /home/rafaella/ros2_ws/build/trab_stage_pkg/install.log --single-version-externally-managed install_data
+[9.921s] running egg_info
+[9.927s] writing ../../build/trab_stage_pkg/trab_stage_pkg.egg-info/PKG-INFO
+[9.930s] writing dependency_links to ../../build/trab_stage_pkg/trab_stage_pkg.egg-info/dependency_links.txt
+[9.934s] writing entry points to ../../build/trab_stage_pkg/trab_stage_pkg.egg-info/entry_points.txt
+[9.935s] writing requirements to ../../build/trab_stage_pkg/trab_stage_pkg.egg-info/requires.txt
+[9.935s] writing top-level names to ../../build/trab_stage_pkg/trab_stage_pkg.egg-info/top_level.txt
+[9.951s] reading manifest file '../../build/trab_stage_pkg/trab_stage_pkg.egg-info/SOURCES.txt'
+[9.959s] writing manifest file '../../build/trab_stage_pkg/trab_stage_pkg.egg-info/SOURCES.txt'
+[9.961s] running build
+[9.962s] running build_py
+[9.967s] copying trab_stage_pkg/robot.py -> /home/rafaella/ros2_ws/build/trab_stage_pkg/build/lib/trab_stage_pkg
+[9.968s] running install
+[9.969s] running install_lib
+[9.972s] copying /home/rafaella/ros2_ws/build/trab_stage_pkg/build/lib/trab_stage_pkg/robot.py -> /home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages/trab_stage_pkg
+[9.981s] byte-compiling /home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages/trab_stage_pkg/robot.py to robot.cpython-310.pyc
+[9.991s]   File "/home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages/trab_stage_pkg/robot.py", line 171
+[9.992s]     self.get_logger().info(f"Estimated Pose: x:{} | y:{} | z:{}")
+[9.992s]                                                                 ^
+[9.993s] SyntaxError: f-string: empty expression not allowed
+[9.993s] 
+[10.005s] running install_data
+[10.007s] running install_egg_info
+[10.008s] removing '/home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages/trab_stage_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[10.009s] Copying ../../build/trab_stage_pkg/trab_stage_pkg.egg-info to /home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages/trab_stage_pkg-0.0.0-py3.10.egg-info
+[10.019s] running install_scripts
+[10.164s] Installing publisher script to /home/rafaella/ros2_ws/install/trab_stage_pkg/lib/trab_stage_pkg
+[10.167s] Installing py_node script to /home/rafaella/ros2_ws/install/trab_stage_pkg/lib/trab_stage_pkg
+[10.169s] Installing robot script to /home/rafaella/ros2_ws/install/trab_stage_pkg/lib/trab_stage_pkg
+[10.170s] Installing subscriber script to /home/rafaella/ros2_ws/install/trab_stage_pkg/lib/trab_stage_pkg
+[10.170s] writing list of installed files to '/home/rafaella/ros2_ws/build/trab_stage_pkg/install.log'
+[10.339s] Invoked command in '/home/rafaella/ros2_ws/src/trab_stage_pkg' returned '0': PYTHONPATH=/home/rafaella/ros2_ws/build/trab_stage_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trab_stage_pkg build --build-base /home/rafaella/ros2_ws/build/trab_stage_pkg/build install --record /home/rafaella/ros2_ws/build/trab_stage_pkg/install.log --single-version-externally-managed install_data

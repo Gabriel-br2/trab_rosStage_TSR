@@ -1,0 +1,320 @@
+[0.000000] (-) TimerEvent: {}
+[0.002098] (Stage) JobQueued: {'identifier': 'Stage', 'dependencies': OrderedDict()}
+[0.003265] (trab_stage_pkg) JobQueued: {'identifier': 'trab_stage_pkg', 'dependencies': OrderedDict()}
+[0.003576] (stage_ros2) JobQueued: {'identifier': 'stage_ros2', 'dependencies': OrderedDict([('Stage', '/home/rafaella/ros2_ws/install/Stage')])}
+[0.003781] (Stage) JobStarted: {'identifier': 'Stage'}
+[0.079049] (trab_stage_pkg) JobStarted: {'identifier': 'trab_stage_pkg'}
+[0.100728] (-) TimerEvent: {}
+[0.134534] (Stage) JobProgress: {'identifier': 'Stage', 'progress': 'cmake'}
+[0.141267] (Stage) JobProgress: {'identifier': 'Stage', 'progress': 'build'}
+[0.151421] (Stage) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rafaella/ros2_ws/build/Stage', '--', '-j4', '-l4'], 'cwd': '/home/rafaella/ros2_ws/build/Stage', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:pt:en'), ('USER', 'rafaella'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/rafaella/snap/code/common/.cache/gio-modules'), ('ROS_PACKAGE_PATH', '/home/rafaella/ros2_ws/install/stage/share'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/195/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rafaella/ros2_ws/install/stage_ros2/lib:/home/rafaella/ros2_ws/install/stage/lib:/home/rafaella/ros2_ws/install/Stage/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rafaella'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.100.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/195/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/rafaella/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/195/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/195/usr/share/code/code'), ('MANAGERPID', '1685'), ('SYSTEMD_EXEC_PID', '1856'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2574'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rafaella/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rafaella'), ('JOURNAL_STREAM', '8:13074'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PKG_CONFIG_PATH', '/home/rafaella/ros2_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/rafaella/ros2_ws/install/stage/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'rafaella'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rafaella/ros2_ws/install/stage/bin:/home/rafaella/ros2_ws/install/Stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rafaella:@/tmp/.ICE-unix/1827,unix/rafaella:/tmp/.ICE-unix/1827'), ('GTK_EXE_PREFIX', '/snap/code/195/usr'), ('INVOCATION_ID', '3f76b488ce1a48e19267e875f11d72c2'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/195/usr/lib/locale'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/rafaella/snap/code/195/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ITDQ72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8cd22083b1.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/rafaella/snap/code/195/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/rafaella/ros2_ws/install/trab_stage_pkg:/home/rafaella/ros2_ws/install/stage_ros2:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rafaella/ros2_ws/build/Stage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/rafaella/snap/code/195/.local/share:/home/rafaella/snap/code/195:/snap/code/195/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/stage:/home/rafaella/ros2_ws/install/Stage')]), 'shell': False}
+[0.205590] (-) TimerEvent: {}
+[0.310030] (-) TimerEvent: {}
+[0.412090] (-) TimerEvent: {}
+[0.520017] (-) TimerEvent: {}
+[0.620840] (-) TimerEvent: {}
+[0.725067] (-) TimerEvent: {}
+[0.797844] (Stage) StdoutLine: {'line': b'[ 57%] Built target stage\n'}
+[0.825986] (-) TimerEvent: {}
+[0.930593] (-) TimerEvent: {}
+[1.032791] (-) TimerEvent: {}
+[1.074015] (Stage) StdoutLine: {'line': b'[ 61%] Built target sink\n'}
+[1.135386] (-) TimerEvent: {}
+[1.238483] (-) TimerEvent: {}
+[1.247013] (Stage) StdoutLine: {'line': b'[ 64%] Built target stagebinary\n'}
+[1.333004] (Stage) StdoutLine: {'line': b'[ 67%] Built target fasr\n'}
+[1.340101] (-) TimerEvent: {}
+[1.368523] (Stage) StdoutLine: {'line': b'[ 71%] Built target source\n'}
+[1.425022] (Stage) StdoutLine: {'line': b'[ 74%] Built target wander\n'}
+[1.440386] (-) TimerEvent: {}
+[1.545080] (-) TimerEvent: {}
+[1.652289] (-) TimerEvent: {}
+[1.653318] (Stage) StdoutLine: {'line': b'[ 77%] Built target lasernoise\n'}
+[1.752940] (-) TimerEvent: {}
+[1.859554] (Stage) StdoutLine: {'line': b'[ 81%] Built target dynamic\n'}
+[1.861591] (-) TimerEvent: {}
+[1.963916] (-) TimerEvent: {}
+[2.050131] (Stage) StdoutLine: {'line': b'[ 86%] Built target fasr2\n'}
+[2.064040] (-) TimerEvent: {}
+[2.166204] (-) TimerEvent: {}
+[2.202738] (Stage) StdoutLine: {'line': b'[ 89%] Built target expand_swarm\n'}
+[2.268241] (-) TimerEvent: {}
+[2.369046] (-) TimerEvent: {}
+[2.383237] (Stage) StdoutLine: {'line': b'[ 93%] Built target expand_pioneer\n'}
+[2.471272] (-) TimerEvent: {}
+[2.574312] (-) TimerEvent: {}
+[2.617182] (Stage) StdoutLine: {'line': b'[ 96%] Built target rasterize\n'}
+[2.675385] (-) TimerEvent: {}
+[2.778269] (-) TimerEvent: {}
+[2.812902] (Stage) StdoutLine: {'line': b'[100%] Built target pioneer_flocking\n'}
+[2.879499] (-) TimerEvent: {}
+[2.987378] (-) TimerEvent: {}
+[3.090978] (-) TimerEvent: {}
+[3.192395] (-) TimerEvent: {}
+[3.264342] (Stage) CommandEnded: {'returncode': 0}
+[3.280050] (Stage) JobProgress: {'identifier': 'Stage', 'progress': 'install'}
+[3.297135] (-) TimerEvent: {}
+[3.347137] (Stage) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rafaella/ros2_ws/build/Stage'], 'cwd': '/home/rafaella/ros2_ws/build/Stage', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:pt:en'), ('USER', 'rafaella'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/rafaella/snap/code/common/.cache/gio-modules'), ('ROS_PACKAGE_PATH', '/home/rafaella/ros2_ws/install/stage/share'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/195/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rafaella/ros2_ws/install/stage_ros2/lib:/home/rafaella/ros2_ws/install/stage/lib:/home/rafaella/ros2_ws/install/Stage/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rafaella'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.100.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/195/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/rafaella/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/195/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/195/usr/share/code/code'), ('MANAGERPID', '1685'), ('SYSTEMD_EXEC_PID', '1856'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2574'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rafaella/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rafaella'), ('JOURNAL_STREAM', '8:13074'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PKG_CONFIG_PATH', '/home/rafaella/ros2_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/rafaella/ros2_ws/install/stage/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'rafaella'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rafaella/ros2_ws/install/stage/bin:/home/rafaella/ros2_ws/install/Stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rafaella:@/tmp/.ICE-unix/1827,unix/rafaella:/tmp/.ICE-unix/1827'), ('GTK_EXE_PREFIX', '/snap/code/195/usr'), ('INVOCATION_ID', '3f76b488ce1a48e19267e875f11d72c2'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/195/usr/lib/locale'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/rafaella/snap/code/195/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ITDQ72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8cd22083b1.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/rafaella/snap/code/195/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/rafaella/ros2_ws/install/trab_stage_pkg:/home/rafaella/ros2_ws/install/stage_ros2:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rafaella/ros2_ws/build/Stage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/rafaella/snap/code/195/.local/share:/home/rafaella/snap/code/195:/snap/code/195/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/stage:/home/rafaella/ros2_ws/install/Stage')]), 'shell': False}
+[3.402061] (-) TimerEvent: {}
+[3.436112] (Stage) StdoutLine: {'line': b'-- Install configuration: "RELEASE"\n'}
+[3.437522] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/pkgconfig/stage.pc\n'}
+[3.438831] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/cmake/Stage/stage-config.cmake\n'}
+[3.446910] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/cmake/Stage/stage-config-version.cmake\n'}
+[3.449128] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/bin/stage\n'}
+[3.453911] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/libstage.so.4.3.0\n'}
+[3.454565] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/libstage.so\n'}
+[3.455071] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/include/Stage-4.3/stage.hh\n'}
+[3.465667] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/fasr.so\n'}
+[3.468949] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/sink.so\n'}
+[3.473178] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/source.so\n'}
+[3.476688] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/wander.so\n'}
+[3.484918] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/pioneer_flocking.so\n'}
+[3.496628] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/rasterize.so\n'}
+[3.497318] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/lasernoise.so\n'}
+[3.502047] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/dynamic.so\n'}
+[3.502857] (-) TimerEvent: {}
+[3.505949] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/fasr2.so\n'}
+[3.511974] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/blue.png\n'}
+[3.513014] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/death.png\n'}
+[3.513851] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/green.png\n'}
+[3.516735] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/logo.png\n'}
+[3.517506] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/mains.png\n'}
+[3.520671] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/mainspower.png\n'}
+[3.527255] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/question_mark.png\n'}
+[3.529375] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/red.png\n'}
+[3.530490] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/stagelogo.png\n'}
+[3.531556] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/stall-old.png\n'}
+[3.533545] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/stall.png\n'}
+[3.536791] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/rgb.txt\n'}
+[3.537572] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/rgb.txt\n'}
+[3.542483] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/amcl-sonar.cfg\n'}
+[3.543137] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/autolab.cfg\n'}
+[3.543683] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/camera.cfg\n'}
+[3.550394] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/everything.cfg\n'}
+[3.551058] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/lsp_test.cfg\n'}
+[3.551740] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/mbicp.cfg\n'}
+[3.555984] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/nd.cfg\n'}
+[3.557402] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/roomba.cfg\n'}
+[3.562140] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/simple.cfg\n'}
+[3.562825] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/test.cfg\n'}
+[3.563987] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/uoa_robotics_lab.cfg\n'}
+[3.565786] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/vfh.cfg\n'}
+[3.566480] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wavefront-remote.cfg\n'}
+[3.567122] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wavefront.cfg\n'}
+[3.571786] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi.cfg\n'}
+[3.572525] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/SFU.world\n'}
+[3.573146] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/autolab.world\n'}
+[3.573857] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/camera.world\n'}
+[3.577401] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/circuit.world\n'}
+[3.577936] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/everything.world\n'}
+[3.578471] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/fasr.world\n'}
+[3.582103] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/fasr2.world\n'}
+[3.582807] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/fasr_plan.world\n'}
+[3.583435] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/large.world\n'}
+[3.584024] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/lsp_test.world\n'}
+[3.584550] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/mbicp.world\n'}
+[3.589680] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/pioneer_flocking.world\n'}
+[3.591605] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/pioneer_follow.world\n'}
+[3.597551] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/pioneer_walle.world\n'}
+[3.598156] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/roomba.world\n'}
+[3.598681] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/sensor_noise_demo.world\n'}
+[3.599216] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/sensor_noise_module_demo.world\n'}
+[3.599687] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/simple.world\n'}
+[3.600645] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/uoa_robotics_lab.world\n'}
+[3.602811] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi.world\n'}
+[3.603459] (-) TimerEvent: {}
+[3.605894] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/beacons.inc\n'}
+[3.606581] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/chatterbox.inc\n'}
+[3.607316] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/hokuyo.inc\n'}
+[3.607797] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/irobot.inc\n'}
+[3.608417] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/map.inc\n'}
+[3.608850] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/objects.inc\n'}
+[3.613782] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/pantilt.inc\n'}
+[3.618247] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/pioneer.inc\n'}
+[3.618809] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/sick.inc\n'}
+[3.619934] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/ubot.inc\n'}
+[3.620540] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/uoa_robotics_lab_models.inc\n'}
+[3.628773] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/walle.inc\n'}
+[3.629500] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/cfggen.sh\n'}
+[3.630942] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/test.sh\n'}
+[3.631595] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/worldgen.sh\n'}
+[3.638072] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/expand_swarm.so\n'}
+[3.641490] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/expand_pioneer.so\n'}
+[3.641959] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/889_05.png\n'}
+[3.642405] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/SFU_1200x615.png\n'}
+[3.642779] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/SRI-AIC-kwing.png\n'}
+[3.648645] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/autolab.png\n'}
+[3.649249] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/cave.png\n'}
+[3.649808] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/cave_compact.png\n'}
+[3.650300] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/cave_filled.png\n'}
+[3.650663] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/frieburg.png\n'}
+[3.660392] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/ghost.png\n'}
+[3.660994] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/hospital.png\n'}
+[3.661503] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/hospital_section.png\n'}
+[3.661961] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/human_outline.png\n'}
+[3.668543] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/mbicp.png\n'}
+[3.669098] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/rink.png\n'}
+[3.669677] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/sal2.png\n'}
+[3.670145] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/simple_rooms.png\n'}
+[3.670591] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/space_invader.png\n'}
+[3.677123] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/submarine.png\n'}
+[3.677547] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/submarine_small.png\n'}
+[3.677894] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/table.png\n'}
+[3.678357] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/uoa_robotics_lab.png\n'}
+[3.678689] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi/commando.world\n'}
+[3.679042] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi/hosp_wifi.world\n'}
+[3.679360] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi/hosp_wifi_5.world\n'}
+[3.679626] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi/wifi.world\n'}
+[3.683670] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi/wifi_itu.world\n'}
+[3.684045] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi/wifi_logdistance.world\n'}
+[3.684377] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi/wifi_ray.world\n'}
+[3.684727] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi/wifi_simple.world\n'}
+[3.685192] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi/map.inc\n'}
+[3.685503] (Stage) CommandEnded: {'returncode': 0}
+[3.703618] (-) TimerEvent: {}
+[3.809257] (Stage) JobEnded: {'identifier': 'Stage', 'rc': 0}
+[3.820015] (-) TimerEvent: {}
+[3.820472] (stage_ros2) JobStarted: {'identifier': 'stage_ros2'}
+[3.874003] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'cmake'}
+[3.877551] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'build'}
+[3.877753] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rafaella/ros2_ws/build/stage_ros2', '--', '-j4', '-l4'], 'cwd': '/home/rafaella/ros2_ws/build/stage_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:pt:en'), ('USER', 'rafaella'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/rafaella/snap/code/common/.cache/gio-modules'), ('ROS_PACKAGE_PATH', '/home/rafaella/ros2_ws/install/stage/share'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/195/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rafaella/ros2_ws/install/Stage/lib:/home/rafaella/ros2_ws/install/stage_ros2/lib:/home/rafaella/ros2_ws/install/stage/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rafaella'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.100.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/195/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/rafaella/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/195/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/195/usr/share/code/code'), ('MANAGERPID', '1685'), ('SYSTEMD_EXEC_PID', '1856'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2574'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rafaella/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rafaella'), ('JOURNAL_STREAM', '8:13074'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PKG_CONFIG_PATH', '/home/rafaella/ros2_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/rafaella/ros2_ws/install/stage/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'rafaella'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rafaella/ros2_ws/install/Stage/bin:/home/rafaella/ros2_ws/install/stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rafaella:@/tmp/.ICE-unix/1827,unix/rafaella:/tmp/.ICE-unix/1827'), ('GTK_EXE_PREFIX', '/snap/code/195/usr'), ('INVOCATION_ID', '3f76b488ce1a48e19267e875f11d72c2'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/195/usr/lib/locale'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/rafaella/snap/code/195/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ITDQ72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8cd22083b1.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/rafaella/snap/code/195/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/rafaella/ros2_ws/install/trab_stage_pkg:/home/rafaella/ros2_ws/install/stage_ros2:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rafaella/ros2_ws/build/stage_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/rafaella/snap/code/195/.local/share:/home/rafaella/snap/code/195:/snap/code/195/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rafaella/ros2_ws/install/Stage:/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/trab_stage_pkg:/opt/ros/humble:/home/rafaella/ros2_ws/install/stage')]), 'shell': False}
+[3.921001] (-) TimerEvent: {}
+[4.025060] (-) TimerEvent: {}
+[4.127169] (-) TimerEvent: {}
+[4.232249] (-) TimerEvent: {}
+[4.337706] (-) TimerEvent: {}
+[4.438616] (-) TimerEvent: {}
+[4.499080] (stage_ros2) StdoutLine: {'line': b'[ 71%] Built target stage_node\n'}
+[4.543034] (-) TimerEvent: {}
+[4.646290] (-) TimerEvent: {}
+[4.719839] (stage_ros2) StdoutLine: {'line': b'[100%] Built target stage_ros2\n'}
+[4.747198] (-) TimerEvent: {}
+[4.799672] (stage_ros2) CommandEnded: {'returncode': 0}
+[4.809264] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'install'}
+[4.809526] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rafaella/ros2_ws/build/stage_ros2'], 'cwd': '/home/rafaella/ros2_ws/build/stage_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:pt:en'), ('USER', 'rafaella'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/rafaella/snap/code/common/.cache/gio-modules'), ('ROS_PACKAGE_PATH', '/home/rafaella/ros2_ws/install/stage/share'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/195/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rafaella/ros2_ws/install/Stage/lib:/home/rafaella/ros2_ws/install/stage_ros2/lib:/home/rafaella/ros2_ws/install/stage/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rafaella'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.100.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/195/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/rafaella/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/195/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/195/usr/share/code/code'), ('MANAGERPID', '1685'), ('SYSTEMD_EXEC_PID', '1856'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2574'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rafaella/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rafaella'), ('JOURNAL_STREAM', '8:13074'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PKG_CONFIG_PATH', '/home/rafaella/ros2_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/rafaella/ros2_ws/install/stage/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'rafaella'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rafaella/ros2_ws/install/Stage/bin:/home/rafaella/ros2_ws/install/stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rafaella:@/tmp/.ICE-unix/1827,unix/rafaella:/tmp/.ICE-unix/1827'), ('GTK_EXE_PREFIX', '/snap/code/195/usr'), ('INVOCATION_ID', '3f76b488ce1a48e19267e875f11d72c2'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/195/usr/lib/locale'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/rafaella/snap/code/195/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ITDQ72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8cd22083b1.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/rafaella/snap/code/195/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/rafaella/ros2_ws/install/trab_stage_pkg:/home/rafaella/ros2_ws/install/stage_ros2:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rafaella/ros2_ws/build/stage_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/rafaella/snap/code/195/.local/share:/home/rafaella/snap/code/195:/snap/code/195/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rafaella/ros2_ws/install/Stage:/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/trab_stage_pkg:/opt/ros/humble:/home/rafaella/ros2_ws/install/stage')]), 'shell': False}
+[4.849122] (-) TimerEvent: {}
+[4.898454] (stage_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.902350] (stage_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.904291] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/environment/library_path.sh\n'}
+[4.912031] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/environment/library_path.dsv\n'}
+[4.912751] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//launch/stage.launch.py\n'}
+[4.914705] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/new_cave.png\n'}
+[4.915327] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/include/pioneer2dx.inc\n'}
+[4.917160] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/include/robots.inc\n'}
+[4.917590] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/new_cave.world\n'}
+[4.922172] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave.rviz\n'}
+[4.922865] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave_seven_robots.rviz\n'}
+[4.924157] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave_three_robots.rviz\n'}
+[4.926196] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/lines.rviz\n'}
+[4.926717] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot0.rviz\n'}
+[4.930261] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns.rviz\n'}
+[4.930764] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns_depth.rviz\n'}
+[4.936301] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy/f710.config.yaml\n'}
+[4.936747] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/lib/libstage_node.so\n'}
+[4.941387] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/lib/stage_ros2/stage_ros2\n'}
+[4.941819] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2\n'}
+[4.942251] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2\n'}
+[4.942752] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh\n'}
+[4.950333] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv\n'}
+[4.951398] (-) TimerEvent: {}
+[4.953317] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/environment/path.sh\n'}
+[4.957922] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/environment/path.dsv\n'}
+[4.958620] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.bash\n'}
+[4.959165] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.sh\n'}
+[4.959574] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.zsh\n'}
+[4.959982] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.dsv\n'}
+[4.960479] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/package.dsv\n'}
+[5.046430] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2\n'}
+[5.047897] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake\n'}
+[5.048459] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake\n'}
+[5.049295] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/package.xml\n'}
+[5.054074] (-) TimerEvent: {}
+[5.074464] (stage_ros2) CommandEnded: {'returncode': 0}
+[5.155011] (-) TimerEvent: {}
+[5.259220] (-) TimerEvent: {}
+[5.324942] (stage_ros2) JobEnded: {'identifier': 'stage_ros2', 'rc': 0}
+[5.361618] (-) TimerEvent: {}
+[5.462462] (-) TimerEvent: {}
+[5.565143] (-) TimerEvent: {}
+[5.668320] (-) TimerEvent: {}
+[5.770394] (-) TimerEvent: {}
+[5.873209] (-) TimerEvent: {}
+[5.974051] (-) TimerEvent: {}
+[6.076139] (-) TimerEvent: {}
+[6.179657] (-) TimerEvent: {}
+[6.282447] (-) TimerEvent: {}
+[6.386054] (-) TimerEvent: {}
+[6.487008] (-) TimerEvent: {}
+[6.589342] (-) TimerEvent: {}
+[6.694042] (-) TimerEvent: {}
+[6.797986] (-) TimerEvent: {}
+[6.900543] (-) TimerEvent: {}
+[7.003776] (-) TimerEvent: {}
+[7.105137] (-) TimerEvent: {}
+[7.167839] (trab_stage_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/trab_stage_pkg', 'build', '--build-base', '/home/rafaella/ros2_ws/build/trab_stage_pkg/build', 'install', '--record', '/home/rafaella/ros2_ws/build/trab_stage_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rafaella/ros2_ws/src/trab_stage_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'pt_BR:pt:en', 'USER': 'rafaella', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/rafaella/snap/code/common/.cache/gio-modules', 'ROS_PACKAGE_PATH': '/home/rafaella/ros2_ws/install/stage/share', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/195/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rafaella/ros2_ws/install/stage_ros2/lib:/home/rafaella/ros2_ws/install/stage/lib:/home/rafaella/ros2_ws/install/Stage/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rafaella', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.100.3', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/195/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/rafaella/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/195/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/195/usr/share/code/code', 'MANAGERPID': '1685', 'SYSTEMD_EXEC_PID': '1856', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2574', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rafaella/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rafaella', 'JOURNAL_STREAM': '8:13074', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PKG_CONFIG_PATH': '/home/rafaella/ros2_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/rafaella/ros2_ws/install/stage/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'rafaella', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/rafaella/ros2_ws/install/stage/bin:/home/rafaella/ros2_ws/install/Stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rafaella:@/tmp/.ICE-unix/1827,unix/rafaella:/tmp/.ICE-unix/1827', 'GTK_EXE_PREFIX': '/snap/code/195/usr', 'INVOCATION_ID': '3f76b488ce1a48e19267e875f11d72c2', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/195/usr/lib/locale', 'LANG': 'pt_BR.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/rafaella/snap/code/195/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ITDQ72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-8cd22083b1.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/rafaella/snap/code/195/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/rafaella/ros2_ws/install/trab_stage_pkg:/home/rafaella/ros2_ws/install/stage_ros2:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rafaella/ros2_ws/build/trab_stage_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/rafaella/snap/code/195/.local/share:/home/rafaella/snap/code/195:/snap/code/195/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rafaella/ros2_ws/build/trab_stage_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages:/home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/stage:/home/rafaella/ros2_ws/install/Stage'}, 'shell': False}
+[7.207138] (-) TimerEvent: {}
+[7.308053] (-) TimerEvent: {}
+[7.411467] (-) TimerEvent: {}
+[7.513351] (-) TimerEvent: {}
+[7.618038] (-) TimerEvent: {}
+[7.718865] (-) TimerEvent: {}
+[7.821325] (-) TimerEvent: {}
+[7.922062] (-) TimerEvent: {}
+[8.025977] (-) TimerEvent: {}
+[8.127010] (-) TimerEvent: {}
+[8.230087] (-) TimerEvent: {}
+[8.333613] (-) TimerEvent: {}
+[8.434633] (-) TimerEvent: {}
+[8.537080] (-) TimerEvent: {}
+[8.639411] (-) TimerEvent: {}
+[8.740715] (-) TimerEvent: {}
+[8.841515] (-) TimerEvent: {}
+[8.943810] (-) TimerEvent: {}
+[9.045199] (-) TimerEvent: {}
+[9.148538] (-) TimerEvent: {}
+[9.252075] (-) TimerEvent: {}
+[9.354608] (-) TimerEvent: {}
+[9.459831] (-) TimerEvent: {}
+[9.560752] (-) TimerEvent: {}
+[9.663718] (-) TimerEvent: {}
+[9.766116] (-) TimerEvent: {}
+[9.868574] (-) TimerEvent: {}
+[9.969858] (-) TimerEvent: {}
+[9.998956] (trab_stage_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[10.005843] (trab_stage_pkg) StdoutLine: {'line': b'writing ../../build/trab_stage_pkg/trab_stage_pkg.egg-info/PKG-INFO\n'}
+[10.007228] (trab_stage_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/trab_stage_pkg/trab_stage_pkg.egg-info/dependency_links.txt\n'}
+[10.009685] (trab_stage_pkg) StdoutLine: {'line': b'writing entry points to ../../build/trab_stage_pkg/trab_stage_pkg.egg-info/entry_points.txt\n'}
+[10.013645] (trab_stage_pkg) StdoutLine: {'line': b'writing requirements to ../../build/trab_stage_pkg/trab_stage_pkg.egg-info/requires.txt\n'}
+[10.014325] (trab_stage_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/trab_stage_pkg/trab_stage_pkg.egg-info/top_level.txt\n'}
+[10.029280] (trab_stage_pkg) StdoutLine: {'line': b"reading manifest file '../../build/trab_stage_pkg/trab_stage_pkg.egg-info/SOURCES.txt'\n"}
+[10.037501] (trab_stage_pkg) StdoutLine: {'line': b"writing manifest file '../../build/trab_stage_pkg/trab_stage_pkg.egg-info/SOURCES.txt'\n"}
+[10.039805] (trab_stage_pkg) StdoutLine: {'line': b'running build\n'}
+[10.040495] (trab_stage_pkg) StdoutLine: {'line': b'running build_py\n'}
+[10.043166] (trab_stage_pkg) StdoutLine: {'line': b'copying trab_stage_pkg/robot.py -> /home/rafaella/ros2_ws/build/trab_stage_pkg/build/lib/trab_stage_pkg\n'}
+[10.046695] (trab_stage_pkg) StdoutLine: {'line': b'running install\n'}
+[10.047304] (trab_stage_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[10.051121] (trab_stage_pkg) StdoutLine: {'line': b'copying /home/rafaella/ros2_ws/build/trab_stage_pkg/build/lib/trab_stage_pkg/robot.py -> /home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages/trab_stage_pkg\n'}
+[10.059114] (trab_stage_pkg) StdoutLine: {'line': b'byte-compiling /home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages/trab_stage_pkg/robot.py to robot.cpython-310.pyc\n'}
+[10.068398] (trab_stage_pkg) StderrLine: {'line': b'  File "/home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages/trab_stage_pkg/robot.py", line 171\n'}
+[10.070139] (-) TimerEvent: {}
+[10.070655] (trab_stage_pkg) StderrLine: {'line': b'    self.get_logger().info(f"Estimated Pose: x:{} | y:{} | z:{}")\n'}
+[10.071251] (trab_stage_pkg) StderrLine: {'line': b'                                                                ^\n'}
+[10.071711] (trab_stage_pkg) StderrLine: {'line': b'SyntaxError: f-string: empty expression not allowed\n'}
+[10.072249] (trab_stage_pkg) StderrLine: {'line': b'\n'}
+[10.072690] (trab_stage_pkg) StdoutLine: {'line': b'running install_data\n'}
+[10.084175] (trab_stage_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.086551] (trab_stage_pkg) StdoutLine: {'line': b"removing '/home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages/trab_stage_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.087746] (trab_stage_pkg) StdoutLine: {'line': b'Copying ../../build/trab_stage_pkg/trab_stage_pkg.egg-info to /home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages/trab_stage_pkg-0.0.0-py3.10.egg-info\n'}
+[10.097618] (trab_stage_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[10.171795] (-) TimerEvent: {}
+[10.242089] (trab_stage_pkg) StdoutLine: {'line': b'Installing publisher script to /home/rafaella/ros2_ws/install/trab_stage_pkg/lib/trab_stage_pkg\n'}
+[10.243838] (trab_stage_pkg) StdoutLine: {'line': b'Installing py_node script to /home/rafaella/ros2_ws/install/trab_stage_pkg/lib/trab_stage_pkg\n'}
+[10.246713] (trab_stage_pkg) StdoutLine: {'line': b'Installing robot script to /home/rafaella/ros2_ws/install/trab_stage_pkg/lib/trab_stage_pkg\n'}
+[10.248364] (trab_stage_pkg) StdoutLine: {'line': b'Installing subscriber script to /home/rafaella/ros2_ws/install/trab_stage_pkg/lib/trab_stage_pkg\n'}
+[10.248827] (trab_stage_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/rafaella/ros2_ws/build/trab_stage_pkg/install.log'\n"}
+[10.274080] (-) TimerEvent: {}
+[10.379061] (-) TimerEvent: {}
+[10.413088] (trab_stage_pkg) CommandEnded: {'returncode': 0}
+[10.484039] (-) TimerEvent: {}
+[10.488622] (trab_stage_pkg) JobEnded: {'identifier': 'trab_stage_pkg', 'rc': 0}
+[10.497423] (-) EventReactorShutdown: {}

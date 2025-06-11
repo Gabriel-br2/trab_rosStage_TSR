@@ -1,0 +1,5 @@
+  File "/home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages/trab_stage_pkg/robot.py", line 171
+    self.get_logger().info(f"Estimated Pose: x:{} | y:{} | z:{}")
+                                                                ^
+SyntaxError: f-string: empty expression not allowed
+

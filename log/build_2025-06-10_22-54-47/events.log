@@ -1,0 +1,2083 @@
+[0.000000] (-) TimerEvent: {}
+[0.000339] (Stage) JobQueued: {'identifier': 'Stage', 'dependencies': OrderedDict()}
+[0.000471] (trab_stage_pkg) JobQueued: {'identifier': 'trab_stage_pkg', 'dependencies': OrderedDict()}
+[0.000578] (stage_ros2) JobQueued: {'identifier': 'stage_ros2', 'dependencies': OrderedDict([('Stage', '/home/rafaella/ros2_ws/install/Stage')])}
+[0.000662] (Stage) JobStarted: {'identifier': 'Stage'}
+[0.023239] (trab_stage_pkg) JobStarted: {'identifier': 'trab_stage_pkg'}
+[0.056544] (Stage) JobProgress: {'identifier': 'Stage', 'progress': 'cmake'}
+[0.059554] (Stage) Command: {'cmd': ['/usr/bin/cmake', '/home/rafaella/ros2_ws/src/Stage', '-DCMAKE_INSTALL_PREFIX=/home/rafaella/ros2_ws/install/Stage'], 'cwd': '/home/rafaella/ros2_ws/build/Stage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:pt:en'), ('USER', 'rafaella'), ('ROS_PACKAGE_PATH', '/home/rafaella/ros2_ws/install/stage/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rafaella/ros2_ws/install/stage_ros2/lib:/home/rafaella/ros2_ws/install/stage/lib:/home/rafaella/ros2_ws/install/Stage/lib:/home/rafaella/ros2_ws/install/example_interfaces/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rafaella'), ('OLDPWD', '/home/rafaella/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2056'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rafaella/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rafaella'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/rafaella/ros2_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/rafaella/ros2_ws/install/stage/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rafaella'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rafaella/ros2_ws/install/stage/bin:/home/rafaella/ros2_ws/install/Stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rafaella:@/tmp/.ICE-unix/1799,unix/rafaella:/tmp/.ICE-unix/1799'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4f3fe70c_d46a_407c_9b22_1f1a119c5e00'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KMRR72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/trab_stage_pkg:/home/rafaella/ros2_ws/install/example_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rafaella/ros2_ws/build/Stage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages:/home/rafaella/ros2_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/stage:/home/rafaella/ros2_ws/install/Stage:/home/rafaella/ros2_ws/install/example_interfaces')]), 'shell': False}
+[0.098190] (-) TimerEvent: {}
+[0.199131] (-) TimerEvent: {}
+[0.300464] (-) TimerEvent: {}
+[0.338140] (Stage) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.400635] (-) TimerEvent: {}
+[0.501236] (-) TimerEvent: {}
+[0.528422] (Stage) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.554927] (Stage) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.605920] (-) TimerEvent: {}
+[0.707821] (-) TimerEvent: {}
+[0.791074] (Stage) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.807847] (-) TimerEvent: {}
+[0.828250] (Stage) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.829012] (Stage) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.830325] (Stage) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.840751] (Stage) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.908008] (-) TimerEvent: {}
+[1.008433] (-) TimerEvent: {}
+[1.075863] (Stage) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.103949] (Stage) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.104663] (Stage) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.105720] (Stage) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.107768] (Stage) StdoutLine: {'line': b'-- Stage version 4.3.0\n'}
+[1.108301] (Stage) StdoutLine: {'line': b'-- Operating system is Linux\n'}
+[1.108566] (-) TimerEvent: {}
+[1.109074] (Stage) StdoutLine: {'line': b'-- Installing Libraries to /home/rafaella/ros2_ws/install/Stage/lib\n'}
+[1.109396] (Stage) StdoutLine: {'line': b'-- Installing Plugins to /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3\n'}
+[1.109987] (Stage) StdoutLine: {'line': b'-- Build type RELEASE\n'}
+[1.110288] (Stage) StdoutLine: {'line': b'-- Checking for libtool\n'}
+[1.121921] (Stage) StdoutLine: {'line': b'-- Checking for required libraries...\n'}
+[1.144449] (Stage) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[1.173078] (Stage) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[1.208711] (-) TimerEvent: {}
+[1.221366] (Stage) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[1.240247] (Stage) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindOpenGL.cmake:315 (message):\n'}
+[1.240784] (Stage) StderrLine: {'line': b'  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when\n'}
+[1.241178] (Stage) StderrLine: {'line': b'  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the\n'}
+[1.241565] (Stage) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[1.241892] (Stage) StderrLine: {'line': b'\n'}
+[1.242207] (Stage) StderrLine: {'line': b'  FindOpenGL found both a legacy GL library:\n'}
+[1.242623] (Stage) StderrLine: {'line': b'\n'}
+[1.243018] (Stage) StderrLine: {'line': b'    OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so\n'}
+[1.243334] (Stage) StderrLine: {'line': b'\n'}
+[1.243674] (Stage) StderrLine: {'line': b'  and GLVND libraries for OpenGL and GLX:\n'}
+[1.244242] (Stage) StderrLine: {'line': b'\n'}
+[1.244689] (Stage) StderrLine: {'line': b'    OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so\n'}
+[1.245199] (Stage) StderrLine: {'line': b'    OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so\n'}
+[1.245572] (Stage) StderrLine: {'line': b'\n'}
+[1.246184] (Stage) StderrLine: {'line': b'  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for\n'}
+[1.246639] (Stage) StderrLine: {'line': b'  compatibility with CMake 3.10 and below the legacy GL library will be used.\n'}
+[1.247010] (Stage) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.247394] (Stage) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindFLTK.cmake:87 (find_package)\n'}
+[1.247736] (Stage) StderrLine: {'line': b'  CMakeLists.txt:100 (find_package)\n'}
+[1.248039] (Stage) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.248374] (Stage) StderrLine: {'line': b'\x1b[0m\n'}
+[1.248723] (Stage) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[1.308875] (-) TimerEvent: {}
+[1.346132] (Stage) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[1.350666] (Stage) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so\n'}
+[1.409016] (-) TimerEvent: {}
+[1.509542] (-) TimerEvent: {}
+[1.607731] (Stage) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so - found\n'}
+[1.609706] (-) TimerEvent: {}
+[1.612357] (Stage) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[1.709876] (-) TimerEvent: {}
+[1.810480] (-) TimerEvent: {}
+[1.911167] (-) TimerEvent: {}
+[1.944701] (Stage) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[1.945310] (Stage) StdoutLine: {'line': b'-- Looking for connect\n'}
+[2.011313] (-) TimerEvent: {}
+[2.111800] (-) TimerEvent: {}
+[2.145320] (Stage) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[2.145812] (Stage) StdoutLine: {'line': b'-- Looking for remove\n'}
+[2.211919] (-) TimerEvent: {}
+[2.312464] (-) TimerEvent: {}
+[2.378722] (Stage) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[2.379597] (Stage) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[2.412588] (-) TimerEvent: {}
+[2.513288] (-) TimerEvent: {}
+[2.576794] (Stage) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[2.613431] (-) TimerEvent: {}
+[2.708263] (Stage) StdoutLine: {'line': b'-- Found FLTK: fltk_images;fltk_forms;fltk_gl;/usr/lib/x86_64-linux-gnu/libGL.so;fltk  \n'}
+[2.713575] (-) TimerEvent: {}
+[2.717946] (Stage) StdoutLine: {'line': b'-- Checking for optional libraries...\n'}
+[2.722674] (Stage) StdoutLine: {'line': b'-- Installation path CMAKE_INSTALL_PREFIX=/home/rafaella/ros2_ws/install/Stage\n'}
+[2.723527] (Stage) StdoutLine: {'line': b'-- Configuring libstage\n'}
+[2.768291] (Stage) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[2.770250] (Stage) StdoutLine: {'line': b"-- Checking for one of the modules 'playercore>=2.1.0'\n"}
+[2.785629] (Stage) StdoutLine: {'line': b'--   * Player not detected. If Player is installed but not detected, check your PKG_CONFIG_PATH.\n'}
+[2.800481] (trab_stage_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/rafaella/ros2_ws/build/trab_stage_pkg/build', '--no-deps', 'symlink_data'], 'cwd': '/home/rafaella/ros2_ws/build/trab_stage_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'pt_BR:pt:en', 'USER': 'rafaella', 'ROS_PACKAGE_PATH': '/home/rafaella/ros2_ws/install/stage/share', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rafaella/ros2_ws/install/stage_ros2/lib:/home/rafaella/ros2_ws/install/stage/lib:/home/rafaella/ros2_ws/install/Stage/lib:/home/rafaella/ros2_ws/install/example_interfaces/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rafaella', 'OLDPWD': '/home/rafaella/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2056', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rafaella/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rafaella', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/rafaella/ros2_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/rafaella/ros2_ws/install/stage/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rafaella', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/rafaella/ros2_ws/install/stage/bin:/home/rafaella/ros2_ws/install/Stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rafaella:@/tmp/.ICE-unix/1799,unix/rafaella:/tmp/.ICE-unix/1799', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4f3fe70c_d46a_407c_9b22_1f1a119c5e00', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'pt_BR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.KMRR72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.132', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/trab_stage_pkg:/home/rafaella/ros2_ws/install/example_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rafaella/ros2_ws/build/trab_stage_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rafaella/ros2_ws/build/trab_stage_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages:/home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages:/home/rafaella/ros2_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/stage:/home/rafaella/ros2_ws/install/Stage:/home/rafaella/ros2_ws/install/example_interfaces'}, 'shell': False}
+[2.813760] (-) TimerEvent: {}
+[2.854491] (Stage) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.913879] (-) TimerEvent: {}
+[3.014427] (-) TimerEvent: {}
+[3.083052] (Stage) StdoutLine: {'line': b'-- Generating done\n'}
+[3.108602] (Stage) StdoutLine: {'line': b'-- Build files have been written to: /home/rafaella/ros2_ws/build/Stage\n'}
+[3.114582] (-) TimerEvent: {}
+[3.121417] (Stage) CommandEnded: {'returncode': 0}
+[3.123417] (Stage) JobProgress: {'identifier': 'Stage', 'progress': 'build'}
+[3.125817] (Stage) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rafaella/ros2_ws/build/Stage', '--', '-j4', '-l4'], 'cwd': '/home/rafaella/ros2_ws/build/Stage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:pt:en'), ('USER', 'rafaella'), ('ROS_PACKAGE_PATH', '/home/rafaella/ros2_ws/install/stage/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rafaella/ros2_ws/install/stage_ros2/lib:/home/rafaella/ros2_ws/install/stage/lib:/home/rafaella/ros2_ws/install/Stage/lib:/home/rafaella/ros2_ws/install/example_interfaces/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rafaella'), ('OLDPWD', '/home/rafaella/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2056'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rafaella/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rafaella'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/rafaella/ros2_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/rafaella/ros2_ws/install/stage/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rafaella'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rafaella/ros2_ws/install/stage/bin:/home/rafaella/ros2_ws/install/Stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rafaella:@/tmp/.ICE-unix/1799,unix/rafaella:/tmp/.ICE-unix/1799'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4f3fe70c_d46a_407c_9b22_1f1a119c5e00'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KMRR72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/trab_stage_pkg:/home/rafaella/ros2_ws/install/example_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rafaella/ros2_ws/build/Stage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages:/home/rafaella/ros2_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/stage:/home/rafaella/ros2_ws/install/Stage:/home/rafaella/ros2_ws/install/example_interfaces')]), 'shell': False}
+[3.214731] (-) TimerEvent: {}
+[3.240570] (Stage) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/camera.cc.o\x1b[0m\n'}
+[3.242144] (Stage) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/block.cc.o\x1b[0m\n'}
+[3.243902] (Stage) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/blockgroup.cc.o\x1b[0m\n'}
+[3.256918] (Stage) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/color.cc.o\x1b[0m\n'}
+[3.314982] (-) TimerEvent: {}
+[3.415484] (-) TimerEvent: {}
+[3.515952] (-) TimerEvent: {}
+[3.616415] (-) TimerEvent: {}
+[3.716883] (-) TimerEvent: {}
+[3.817371] (-) TimerEvent: {}
+[3.902193] (trab_stage_pkg) StdoutLine: {'line': b'running develop\n'}
+[3.917507] (-) TimerEvent: {}
+[4.018012] (-) TimerEvent: {}
+[4.118594] (-) TimerEvent: {}
+[4.219196] (-) TimerEvent: {}
+[4.320099] (-) TimerEvent: {}
+[4.420995] (-) TimerEvent: {}
+[4.522050] (-) TimerEvent: {}
+[4.623001] (-) TimerEvent: {}
+[4.723763] (-) TimerEvent: {}
+[4.824567] (-) TimerEvent: {}
+[4.925375] (-) TimerEvent: {}
+[5.026437] (-) TimerEvent: {}
+[5.127721] (-) TimerEvent: {}
+[5.228719] (-) TimerEvent: {}
+[5.329548] (-) TimerEvent: {}
+[5.430292] (-) TimerEvent: {}
+[5.531072] (-) TimerEvent: {}
+[5.631859] (-) TimerEvent: {}
+[5.732609] (-) TimerEvent: {}
+[5.796718] (trab_stage_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[5.797416] (trab_stage_pkg) StdoutLine: {'line': b'creating trab_stage_pkg.egg-info\n'}
+[5.799494] (trab_stage_pkg) StdoutLine: {'line': b'writing trab_stage_pkg.egg-info/PKG-INFO\n'}
+[5.803491] (trab_stage_pkg) StdoutLine: {'line': b'writing dependency_links to trab_stage_pkg.egg-info/dependency_links.txt\n'}
+[5.805476] (trab_stage_pkg) StdoutLine: {'line': b'writing entry points to trab_stage_pkg.egg-info/entry_points.txt\n'}
+[5.807215] (trab_stage_pkg) StdoutLine: {'line': b'writing requirements to trab_stage_pkg.egg-info/requires.txt\n'}
+[5.808707] (trab_stage_pkg) StdoutLine: {'line': b'writing top-level names to trab_stage_pkg.egg-info/top_level.txt\n'}
+[5.813874] (trab_stage_pkg) StdoutLine: {'line': b"writing manifest file 'trab_stage_pkg.egg-info/SOURCES.txt'\n"}
+[5.824576] (trab_stage_pkg) StdoutLine: {'line': b"reading manifest file 'trab_stage_pkg.egg-info/SOURCES.txt'\n"}
+[5.828115] (trab_stage_pkg) StdoutLine: {'line': b"writing manifest file 'trab_stage_pkg.egg-info/SOURCES.txt'\n"}
+[5.832774] (-) TimerEvent: {}
+[5.836282] (trab_stage_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[5.837384] (trab_stage_pkg) StdoutLine: {'line': b'Creating /home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages/trab-stage-pkg.egg-link (link to .)\n'}
+[5.842644] (trab_stage_pkg) StdoutLine: {'line': b'Installing publisher script to /home/rafaella/ros2_ws/install/trab_stage_pkg/lib/trab_stage_pkg\n'}
+[5.846469] (trab_stage_pkg) StdoutLine: {'line': b'Installing py_node script to /home/rafaella/ros2_ws/install/trab_stage_pkg/lib/trab_stage_pkg\n'}
+[5.848647] (trab_stage_pkg) StdoutLine: {'line': b'Installing subscriber script to /home/rafaella/ros2_ws/install/trab_stage_pkg/lib/trab_stage_pkg\n'}
+[5.852160] (trab_stage_pkg) StdoutLine: {'line': b'\n'}
+[5.852773] (trab_stage_pkg) StdoutLine: {'line': b'Installed /home/rafaella/ros2_ws/build/trab_stage_pkg\n'}
+[5.853517] (trab_stage_pkg) StdoutLine: {'line': b'running symlink_data\n'}
+[5.854081] (trab_stage_pkg) StdoutLine: {'line': b'creating /home/rafaella/ros2_ws/install/trab_stage_pkg/share/ament_index\n'}
+[5.854534] (trab_stage_pkg) StdoutLine: {'line': b'creating /home/rafaella/ros2_ws/install/trab_stage_pkg/share/ament_index/resource_index\n'}
+[5.854941] (trab_stage_pkg) StdoutLine: {'line': b'creating /home/rafaella/ros2_ws/install/trab_stage_pkg/share/ament_index/resource_index/packages\n'}
+[5.855318] (trab_stage_pkg) StdoutLine: {'line': b'symbolically linking /home/rafaella/ros2_ws/build/trab_stage_pkg/resource/trab_stage_pkg -> /home/rafaella/ros2_ws/install/trab_stage_pkg/share/ament_index/resource_index/packages\n'}
+[5.855705] (trab_stage_pkg) StdoutLine: {'line': b'symbolically linking /home/rafaella/ros2_ws/build/trab_stage_pkg/package.xml -> /home/rafaella/ros2_ws/install/trab_stage_pkg/share/trab_stage_pkg\n'}
+[5.932958] (-) TimerEvent: {}
+[6.033990] (-) TimerEvent: {}
+[6.116215] (trab_stage_pkg) CommandEnded: {'returncode': 0}
+[6.144361] (-) TimerEvent: {}
+[6.225624] (trab_stage_pkg) JobEnded: {'identifier': 'trab_stage_pkg', 'rc': 0}
+[6.244611] (-) TimerEvent: {}
+[6.345177] (-) TimerEvent: {}
+[6.445838] (-) TimerEvent: {}
+[6.546532] (-) TimerEvent: {}
+[6.647191] (-) TimerEvent: {}
+[6.758465] (-) TimerEvent: {}
+[6.859171] (-) TimerEvent: {}
+[6.960786] (-) TimerEvent: {}
+[7.061352] (-) TimerEvent: {}
+[7.161889] (-) TimerEvent: {}
+[7.262440] (-) TimerEvent: {}
+[7.363205] (-) TimerEvent: {}
+[7.463997] (-) TimerEvent: {}
+[7.564834] (-) TimerEvent: {}
+[7.665591] (-) TimerEvent: {}
+[7.766401] (-) TimerEvent: {}
+[7.867310] (-) TimerEvent: {}
+[7.967878] (-) TimerEvent: {}
+[8.068478] (-) TimerEvent: {}
+[8.169097] (-) TimerEvent: {}
+[8.269702] (-) TimerEvent: {}
+[8.370296] (-) TimerEvent: {}
+[8.470900] (-) TimerEvent: {}
+[8.571528] (-) TimerEvent: {}
+[8.672155] (-) TimerEvent: {}
+[8.683007] (Stage) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/file_manager.cc.o\x1b[0m\n'}
+[8.772316] (-) TimerEvent: {}
+[8.776840] (Stage) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/gl.cc.o\x1b[0m\n'}
+[8.872487] (-) TimerEvent: {}
+[8.971653] (Stage) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/logentry.cc.o\x1b[0m\n'}
+[8.972582] (-) TimerEvent: {}
+[9.073261] (-) TimerEvent: {}
+[9.174185] (-) TimerEvent: {}
+[9.275519] (-) TimerEvent: {}
+[9.376932] (-) TimerEvent: {}
+[9.477743] (-) TimerEvent: {}
+[9.578604] (-) TimerEvent: {}
+[9.679458] (-) TimerEvent: {}
+[9.780315] (-) TimerEvent: {}
+[9.881314] (-) TimerEvent: {}
+[9.982324] (-) TimerEvent: {}
+[10.083195] (-) TimerEvent: {}
+[10.184143] (-) TimerEvent: {}
+[10.285134] (-) TimerEvent: {}
+[10.385743] (-) TimerEvent: {}
+[10.482307] (Stage) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model.cc.o\x1b[0m\n'}
+[10.485876] (-) TimerEvent: {}
+[10.586708] (-) TimerEvent: {}
+[10.687347] (-) TimerEvent: {}
+[10.788023] (-) TimerEvent: {}
+[10.888626] (-) TimerEvent: {}
+[10.989216] (-) TimerEvent: {}
+[11.089862] (-) TimerEvent: {}
+[11.190572] (-) TimerEvent: {}
+[11.291193] (-) TimerEvent: {}
+[11.391834] (-) TimerEvent: {}
+[11.492441] (-) TimerEvent: {}
+[11.593118] (-) TimerEvent: {}
+[11.693768] (-) TimerEvent: {}
+[11.794414] (-) TimerEvent: {}
+[11.895078] (-) TimerEvent: {}
+[11.995725] (-) TimerEvent: {}
+[12.096380] (-) TimerEvent: {}
+[12.197131] (-) TimerEvent: {}
+[12.297957] (-) TimerEvent: {}
+[12.398672] (-) TimerEvent: {}
+[12.499347] (-) TimerEvent: {}
+[12.600020] (-) TimerEvent: {}
+[12.700740] (-) TimerEvent: {}
+[12.801497] (-) TimerEvent: {}
+[12.902209] (-) TimerEvent: {}
+[13.003414] (-) TimerEvent: {}
+[13.104383] (-) TimerEvent: {}
+[13.205392] (-) TimerEvent: {}
+[13.306378] (-) TimerEvent: {}
+[13.407289] (-) TimerEvent: {}
+[13.508205] (-) TimerEvent: {}
+[13.610471] (-) TimerEvent: {}
+[13.711413] (-) TimerEvent: {}
+[13.812292] (-) TimerEvent: {}
+[13.915601] (-) TimerEvent: {}
+[14.016471] (-) TimerEvent: {}
+[14.117768] (-) TimerEvent: {}
+[14.220379] (-) TimerEvent: {}
+[14.321046] (-) TimerEvent: {}
+[14.410009] (Stage) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_actuator.cc.o\x1b[0m\n'}
+[14.421209] (-) TimerEvent: {}
+[14.521886] (-) TimerEvent: {}
+[14.622667] (-) TimerEvent: {}
+[14.627297] (Stage) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_blinkenlight.cc.o\x1b[0m\n'}
+[14.726094] (-) TimerEvent: {}
+[14.829543] (-) TimerEvent: {}
+[14.914361] (Stage) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_blobfinder.cc.o\x1b[0m\n'}
+[14.929730] (-) TimerEvent: {}
+[15.031511] (-) TimerEvent: {}
+[15.132268] (-) TimerEvent: {}
+[15.232933] (-) TimerEvent: {}
+[15.333590] (-) TimerEvent: {}
+[15.434272] (-) TimerEvent: {}
+[15.534975] (-) TimerEvent: {}
+[15.635693] (-) TimerEvent: {}
+[15.736392] (-) TimerEvent: {}
+[15.837183] (-) TimerEvent: {}
+[15.937957] (-) TimerEvent: {}
+[16.039218] (-) TimerEvent: {}
+[16.140064] (-) TimerEvent: {}
+[16.240925] (-) TimerEvent: {}
+[16.341796] (-) TimerEvent: {}
+[16.442807] (-) TimerEvent: {}
+[16.543843] (-) TimerEvent: {}
+[16.644837] (-) TimerEvent: {}
+[16.745745] (-) TimerEvent: {}
+[16.846661] (-) TimerEvent: {}
+[16.947508] (-) TimerEvent: {}
+[17.048117] (-) TimerEvent: {}
+[17.148731] (-) TimerEvent: {}
+[17.249401] (-) TimerEvent: {}
+[17.350048] (-) TimerEvent: {}
+[17.450635] (-) TimerEvent: {}
+[17.551267] (-) TimerEvent: {}
+[17.651929] (-) TimerEvent: {}
+[17.752555] (-) TimerEvent: {}
+[17.853162] (-) TimerEvent: {}
+[17.953818] (-) TimerEvent: {}
+[18.054479] (-) TimerEvent: {}
+[18.155196] (-) TimerEvent: {}
+[18.255984] (-) TimerEvent: {}
+[18.358722] (-) TimerEvent: {}
+[18.459319] (-) TimerEvent: {}
+[18.559929] (-) TimerEvent: {}
+[18.660665] (-) TimerEvent: {}
+[18.761327] (-) TimerEvent: {}
+[18.862179] (-) TimerEvent: {}
+[18.962899] (-) TimerEvent: {}
+[19.063581] (-) TimerEvent: {}
+[19.162666] (Stage) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_bumper.cc.o\x1b[0m\n'}
+[19.163696] (-) TimerEvent: {}
+[19.264346] (-) TimerEvent: {}
+[19.290013] (Stage) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_callbacks.cc.o\x1b[0m\n'}
+[19.364566] (-) TimerEvent: {}
+[19.465271] (-) TimerEvent: {}
+[19.565911] (-) TimerEvent: {}
+[19.666552] (-) TimerEvent: {}
+[19.767155] (-) TimerEvent: {}
+[19.867775] (-) TimerEvent: {}
+[19.968451] (-) TimerEvent: {}
+[20.070540] (-) TimerEvent: {}
+[20.171256] (-) TimerEvent: {}
+[20.272339] (-) TimerEvent: {}
+[20.373343] (-) TimerEvent: {}
+[20.474318] (-) TimerEvent: {}
+[20.555572] (Stage) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_camera.cc.o\x1b[0m\n'}
+[20.574491] (-) TimerEvent: {}
+[20.675495] (-) TimerEvent: {}
+[20.776342] (-) TimerEvent: {}
+[20.877136] (-) TimerEvent: {}
+[20.977999] (-) TimerEvent: {}
+[21.078702] (-) TimerEvent: {}
+[21.179484] (-) TimerEvent: {}
+[21.276423] (Stage) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_draw.cc.o\x1b[0m\n'}
+[21.279652] (-) TimerEvent: {}
+[21.380297] (-) TimerEvent: {}
+[21.480919] (-) TimerEvent: {}
+[21.581540] (-) TimerEvent: {}
+[21.682248] (-) TimerEvent: {}
+[21.783679] (-) TimerEvent: {}
+[21.884475] (-) TimerEvent: {}
+[21.985176] (-) TimerEvent: {}
+[22.085873] (-) TimerEvent: {}
+[22.186640] (-) TimerEvent: {}
+[22.287313] (-) TimerEvent: {}
+[22.388013] (-) TimerEvent: {}
+[22.488716] (-) TimerEvent: {}
+[22.589423] (-) TimerEvent: {}
+[22.690191] (-) TimerEvent: {}
+[22.791030] (-) TimerEvent: {}
+[22.891796] (-) TimerEvent: {}
+[22.992543] (-) TimerEvent: {}
+[23.093284] (-) TimerEvent: {}
+[23.194059] (-) TimerEvent: {}
+[23.294868] (-) TimerEvent: {}
+[23.395592] (-) TimerEvent: {}
+[23.496316] (-) TimerEvent: {}
+[23.597055] (-) TimerEvent: {}
+[23.697821] (-) TimerEvent: {}
+[23.798644] (-) TimerEvent: {}
+[23.899733] (-) TimerEvent: {}
+[24.000540] (-) TimerEvent: {}
+[24.101490] (-) TimerEvent: {}
+[24.202315] (-) TimerEvent: {}
+[24.303376] (-) TimerEvent: {}
+[24.404191] (-) TimerEvent: {}
+[24.504940] (-) TimerEvent: {}
+[24.605701] (-) TimerEvent: {}
+[24.706481] (-) TimerEvent: {}
+[24.727471] (Stage) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_fiducial.cc.o\x1b[0m\n'}
+[24.806680] (-) TimerEvent: {}
+[24.856320] (Stage) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_gripper.cc.o\x1b[0m\n'}
+[24.907014] (-) TimerEvent: {}
+[25.007725] (-) TimerEvent: {}
+[25.108378] (-) TimerEvent: {}
+[25.209035] (-) TimerEvent: {}
+[25.309705] (-) TimerEvent: {}
+[25.410372] (-) TimerEvent: {}
+[25.511113] (-) TimerEvent: {}
+[25.612884] (-) TimerEvent: {}
+[25.714177] (-) TimerEvent: {}
+[25.815696] (-) TimerEvent: {}
+[25.916732] (-) TimerEvent: {}
+[26.017735] (-) TimerEvent: {}
+[26.118729] (-) TimerEvent: {}
+[26.219786] (-) TimerEvent: {}
+[26.320846] (-) TimerEvent: {}
+[26.421955] (-) TimerEvent: {}
+[26.487566] (Stage) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_lightindicator.cc.o\x1b[0m\n'}
+[26.522158] (-) TimerEvent: {}
+[26.623334] (-) TimerEvent: {}
+[26.724379] (-) TimerEvent: {}
+[26.825441] (-) TimerEvent: {}
+[26.926404] (-) TimerEvent: {}
+[27.027365] (-) TimerEvent: {}
+[27.128347] (-) TimerEvent: {}
+[27.229416] (-) TimerEvent: {}
+[27.330478] (-) TimerEvent: {}
+[27.431460] (-) TimerEvent: {}
+[27.532490] (-) TimerEvent: {}
+[27.633522] (-) TimerEvent: {}
+[27.734862] (-) TimerEvent: {}
+[27.835949] (-) TimerEvent: {}
+[27.936796] (-) TimerEvent: {}
+[28.037681] (-) TimerEvent: {}
+[28.138477] (-) TimerEvent: {}
+[28.239181] (-) TimerEvent: {}
+[28.339866] (-) TimerEvent: {}
+[28.430048] (Stage) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_position.cc.o\x1b[0m\n'}
+[28.440050] (-) TimerEvent: {}
+[28.541059] (-) TimerEvent: {}
+[28.641704] (-) TimerEvent: {}
+[28.742391] (-) TimerEvent: {}
+[28.843127] (-) TimerEvent: {}
+[28.943890] (-) TimerEvent: {}
+[29.044706] (-) TimerEvent: {}
+[29.145581] (-) TimerEvent: {}
+[29.246660] (-) TimerEvent: {}
+[29.347843] (-) TimerEvent: {}
+[29.449002] (-) TimerEvent: {}
+[29.550042] (-) TimerEvent: {}
+[29.651053] (-) TimerEvent: {}
+[29.752097] (-) TimerEvent: {}
+[29.852864] (-) TimerEvent: {}
+[29.953674] (-) TimerEvent: {}
+[30.054426] (-) TimerEvent: {}
+[30.155264] (-) TimerEvent: {}
+[30.256145] (-) TimerEvent: {}
+[30.356959] (-) TimerEvent: {}
+[30.457774] (-) TimerEvent: {}
+[30.558591] (-) TimerEvent: {}
+[30.659410] (-) TimerEvent: {}
+[30.760306] (-) TimerEvent: {}
+[30.861123] (-) TimerEvent: {}
+[30.961966] (-) TimerEvent: {}
+[31.062906] (-) TimerEvent: {}
+[31.163808] (-) TimerEvent: {}
+[31.264662] (-) TimerEvent: {}
+[31.365571] (-) TimerEvent: {}
+[31.412095] (Stage) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_ranger.cc.o\x1b[0m\n'}
+[31.465753] (-) TimerEvent: {}
+[31.566710] (-) TimerEvent: {}
+[31.667483] (-) TimerEvent: {}
+[31.768185] (-) TimerEvent: {}
+[31.868920] (-) TimerEvent: {}
+[31.969614] (-) TimerEvent: {}
+[32.044402] (Stage) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/option.cc.o\x1b[0m\n'}
+[32.069783] (-) TimerEvent: {}
+[32.172991] (-) TimerEvent: {}
+[32.273602] (-) TimerEvent: {}
+[32.374724] (-) TimerEvent: {}
+[32.475283] (-) TimerEvent: {}
+[32.514610] (Stage) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/powerpack.cc.o\x1b[0m\n'}
+[32.575445] (-) TimerEvent: {}
+[32.676049] (-) TimerEvent: {}
+[32.776644] (-) TimerEvent: {}
+[32.877283] (-) TimerEvent: {}
+[32.977902] (-) TimerEvent: {}
+[33.078489] (-) TimerEvent: {}
+[33.179202] (-) TimerEvent: {}
+[33.279836] (-) TimerEvent: {}
+[33.380530] (-) TimerEvent: {}
+[33.481240] (-) TimerEvent: {}
+[33.581991] (-) TimerEvent: {}
+[33.682962] (-) TimerEvent: {}
+[33.783769] (-) TimerEvent: {}
+[33.884536] (-) TimerEvent: {}
+[33.985342] (-) TimerEvent: {}
+[34.086040] (-) TimerEvent: {}
+[34.186922] (-) TimerEvent: {}
+[34.287689] (-) TimerEvent: {}
+[34.388377] (-) TimerEvent: {}
+[34.489173] (-) TimerEvent: {}
+[34.590119] (-) TimerEvent: {}
+[34.690885] (-) TimerEvent: {}
+[34.791700] (-) TimerEvent: {}
+[34.892549] (-) TimerEvent: {}
+[34.993352] (-) TimerEvent: {}
+[35.094117] (-) TimerEvent: {}
+[35.195147] (-) TimerEvent: {}
+[35.296094] (-) TimerEvent: {}
+[35.396841] (-) TimerEvent: {}
+[35.498015] (-) TimerEvent: {}
+[35.541577] (Stage) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/region.cc.o\x1b[0m\n'}
+[35.598176] (-) TimerEvent: {}
+[35.698935] (-) TimerEvent: {}
+[35.799642] (-) TimerEvent: {}
+[35.900339] (-) TimerEvent: {}
+[36.001040] (-) TimerEvent: {}
+[36.101801] (-) TimerEvent: {}
+[36.202591] (-) TimerEvent: {}
+[36.303390] (-) TimerEvent: {}
+[36.405618] (-) TimerEvent: {}
+[36.506430] (-) TimerEvent: {}
+[36.607258] (-) TimerEvent: {}
+[36.708063] (-) TimerEvent: {}
+[36.808919] (-) TimerEvent: {}
+[36.909702] (-) TimerEvent: {}
+[37.010661] (-) TimerEvent: {}
+[37.111465] (-) TimerEvent: {}
+[37.212231] (-) TimerEvent: {}
+[37.313121] (-) TimerEvent: {}
+[37.413950] (-) TimerEvent: {}
+[37.514779] (-) TimerEvent: {}
+[37.615652] (-) TimerEvent: {}
+[37.716464] (-) TimerEvent: {}
+[37.817393] (-) TimerEvent: {}
+[37.894693] (Stage) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/stage.cc.o\x1b[0m\n'}
+[37.917582] (-) TimerEvent: {}
+[38.018347] (-) TimerEvent: {}
+[38.119366] (-) TimerEvent: {}
+[38.220158] (-) TimerEvent: {}
+[38.320848] (-) TimerEvent: {}
+[38.420754] (Stage) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/texture_manager.cc.o\x1b[0m\n'}
+[38.421340] (-) TimerEvent: {}
+[38.522160] (-) TimerEvent: {}
+[38.608911] (Stage) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/typetable.cc.o\x1b[0m\n'}
+[38.622298] (-) TimerEvent: {}
+[38.723051] (-) TimerEvent: {}
+[38.823680] (-) TimerEvent: {}
+[38.924306] (-) TimerEvent: {}
+[39.024925] (-) TimerEvent: {}
+[39.125573] (-) TimerEvent: {}
+[39.226239] (-) TimerEvent: {}
+[39.326895] (-) TimerEvent: {}
+[39.427581] (-) TimerEvent: {}
+[39.528352] (-) TimerEvent: {}
+[39.629178] (-) TimerEvent: {}
+[39.730005] (-) TimerEvent: {}
+[39.830919] (-) TimerEvent: {}
+[39.931784] (-) TimerEvent: {}
+[40.032628] (-) TimerEvent: {}
+[40.133490] (-) TimerEvent: {}
+[40.234448] (-) TimerEvent: {}
+[40.335257] (-) TimerEvent: {}
+[40.436058] (-) TimerEvent: {}
+[40.537052] (-) TimerEvent: {}
+[40.637950] (-) TimerEvent: {}
+[40.738884] (-) TimerEvent: {}
+[40.839915] (-) TimerEvent: {}
+[40.940942] (-) TimerEvent: {}
+[41.042036] (-) TimerEvent: {}
+[41.143076] (-) TimerEvent: {}
+[41.250707] (-) TimerEvent: {}
+[41.352156] (-) TimerEvent: {}
+[41.453306] (-) TimerEvent: {}
+[41.554163] (-) TimerEvent: {}
+[41.655071] (-) TimerEvent: {}
+[41.755910] (-) TimerEvent: {}
+[41.856670] (-) TimerEvent: {}
+[41.957432] (-) TimerEvent: {}
+[42.058100] (-) TimerEvent: {}
+[42.158734] (-) TimerEvent: {}
+[42.259356] (-) TimerEvent: {}
+[42.360021] (-) TimerEvent: {}
+[42.460698] (-) TimerEvent: {}
+[42.561406] (-) TimerEvent: {}
+[42.604933] (Stage) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/world.cc.o\x1b[0m\n'}
+[42.663543] (-) TimerEvent: {}
+[42.764271] (-) TimerEvent: {}
+[42.864963] (-) TimerEvent: {}
+[42.965665] (-) TimerEvent: {}
+[43.066420] (-) TimerEvent: {}
+[43.167136] (-) TimerEvent: {}
+[43.267882] (-) TimerEvent: {}
+[43.368616] (-) TimerEvent: {}
+[43.469358] (-) TimerEvent: {}
+[43.570119] (-) TimerEvent: {}
+[43.670879] (-) TimerEvent: {}
+[43.771580] (-) TimerEvent: {}
+[43.872498] (-) TimerEvent: {}
+[43.973495] (-) TimerEvent: {}
+[44.074443] (-) TimerEvent: {}
+[44.175236] (-) TimerEvent: {}
+[44.241934] (Stage) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldfile.cc.o\x1b[0m\n'}
+[44.275433] (-) TimerEvent: {}
+[44.376257] (-) TimerEvent: {}
+[44.476952] (-) TimerEvent: {}
+[44.577668] (-) TimerEvent: {}
+[44.678424] (-) TimerEvent: {}
+[44.779143] (-) TimerEvent: {}
+[44.879847] (-) TimerEvent: {}
+[44.980628] (-) TimerEvent: {}
+[45.081351] (-) TimerEvent: {}
+[45.183085] (-) TimerEvent: {}
+[45.283792] (-) TimerEvent: {}
+[45.309840] (Stage) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/canvas.cc.o\x1b[0m\n'}
+[45.383965] (-) TimerEvent: {}
+[45.484663] (-) TimerEvent: {}
+[45.585453] (-) TimerEvent: {}
+[45.686170] (-) TimerEvent: {}
+[45.786892] (-) TimerEvent: {}
+[45.887624] (-) TimerEvent: {}
+[45.988328] (-) TimerEvent: {}
+[46.079796] (Stage) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/options_dlg.cc.o\x1b[0m\n'}
+[46.088483] (-) TimerEvent: {}
+[46.189169] (-) TimerEvent: {}
+[46.289841] (-) TimerEvent: {}
+[46.390568] (-) TimerEvent: {}
+[46.491275] (-) TimerEvent: {}
+[46.592030] (-) TimerEvent: {}
+[46.693543] (-) TimerEvent: {}
+[46.795113] (-) TimerEvent: {}
+[46.895975] (-) TimerEvent: {}
+[46.996898] (-) TimerEvent: {}
+[47.097775] (-) TimerEvent: {}
+[47.198552] (-) TimerEvent: {}
+[47.299307] (-) TimerEvent: {}
+[47.399994] (-) TimerEvent: {}
+[47.500667] (-) TimerEvent: {}
+[47.601296] (-) TimerEvent: {}
+[47.702706] (-) TimerEvent: {}
+[47.804690] (-) TimerEvent: {}
+[47.911439] (-) TimerEvent: {}
+[48.017067] (-) TimerEvent: {}
+[48.117805] (-) TimerEvent: {}
+[48.218453] (-) TimerEvent: {}
+[48.319119] (-) TimerEvent: {}
+[48.419778] (-) TimerEvent: {}
+[48.520418] (-) TimerEvent: {}
+[48.621034] (-) TimerEvent: {}
+[48.721654] (-) TimerEvent: {}
+[48.822249] (-) TimerEvent: {}
+[48.922912] (-) TimerEvent: {}
+[49.023605] (-) TimerEvent: {}
+[49.124303] (-) TimerEvent: {}
+[49.225018] (-) TimerEvent: {}
+[49.325668] (-) TimerEvent: {}
+[49.426364] (-) TimerEvent: {}
+[49.527138] (-) TimerEvent: {}
+[49.627825] (-) TimerEvent: {}
+[49.728539] (-) TimerEvent: {}
+[49.829290] (-) TimerEvent: {}
+[49.930104] (-) TimerEvent: {}
+[50.030854] (-) TimerEvent: {}
+[50.131665] (-) TimerEvent: {}
+[50.232438] (-) TimerEvent: {}
+[50.333195] (-) TimerEvent: {}
+[50.433968] (-) TimerEvent: {}
+[50.534797] (-) TimerEvent: {}
+[50.635590] (-) TimerEvent: {}
+[50.736359] (-) TimerEvent: {}
+[50.837235] (-) TimerEvent: {}
+[50.938034] (-) TimerEvent: {}
+[51.038824] (-) TimerEvent: {}
+[51.139722] (-) TimerEvent: {}
+[51.240938] (-) TimerEvent: {}
+[51.341728] (-) TimerEvent: {}
+[51.442422] (-) TimerEvent: {}
+[51.543135] (-) TimerEvent: {}
+[51.643833] (-) TimerEvent: {}
+[51.719761] (Stage) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/vis_strip.cc.o\x1b[0m\n'}
+[51.744011] (-) TimerEvent: {}
+[51.844724] (-) TimerEvent: {}
+[51.945340] (-) TimerEvent: {}
+[52.045981] (-) TimerEvent: {}
+[52.146636] (-) TimerEvent: {}
+[52.247307] (-) TimerEvent: {}
+[52.347927] (-) TimerEvent: {}
+[52.449280] (-) TimerEvent: {}
+[52.549992] (-) TimerEvent: {}
+[52.650729] (-) TimerEvent: {}
+[52.751411] (-) TimerEvent: {}
+[52.852070] (-) TimerEvent: {}
+[52.952772] (-) TimerEvent: {}
+[53.053563] (-) TimerEvent: {}
+[53.154595] (-) TimerEvent: {}
+[53.255372] (-) TimerEvent: {}
+[53.356348] (-) TimerEvent: {}
+[53.457160] (-) TimerEvent: {}
+[53.557877] (-) TimerEvent: {}
+[53.658599] (-) TimerEvent: {}
+[53.759277] (-) TimerEvent: {}
+[53.859970] (-) TimerEvent: {}
+[53.960676] (-) TimerEvent: {}
+[54.061440] (-) TimerEvent: {}
+[54.162518] (-) TimerEvent: {}
+[54.263159] (-) TimerEvent: {}
+[54.364281] (-) TimerEvent: {}
+[54.428034] (Stage) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldgui.cc.o\x1b[0m\n'}
+[54.464499] (-) TimerEvent: {}
+[54.565664] (-) TimerEvent: {}
+[54.666721] (-) TimerEvent: {}
+[54.767587] (-) TimerEvent: {}
+[54.868240] (-) TimerEvent: {}
+[54.958174] (Stage) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/ancestor.cc.o\x1b[0m\n'}
+[54.968401] (-) TimerEvent: {}
+[55.069098] (-) TimerEvent: {}
+[55.169796] (-) TimerEvent: {}
+[55.270482] (-) TimerEvent: {}
+[55.371357] (-) TimerEvent: {}
+[55.472272] (-) TimerEvent: {}
+[55.573162] (-) TimerEvent: {}
+[55.674087] (-) TimerEvent: {}
+[55.775053] (-) TimerEvent: {}
+[55.876150] (-) TimerEvent: {}
+[55.977324] (-) TimerEvent: {}
+[56.078075] (-) TimerEvent: {}
+[56.179171] (-) TimerEvent: {}
+[56.280258] (-) TimerEvent: {}
+[56.381097] (-) TimerEvent: {}
+[56.481971] (-) TimerEvent: {}
+[56.582650] (-) TimerEvent: {}
+[56.683340] (-) TimerEvent: {}
+[56.784121] (-) TimerEvent: {}
+[56.884755] (-) TimerEvent: {}
+[56.985476] (-) TimerEvent: {}
+[57.086191] (-) TimerEvent: {}
+[57.187219] (-) TimerEvent: {}
+[57.288415] (-) TimerEvent: {}
+[57.389580] (-) TimerEvent: {}
+[57.490451] (-) TimerEvent: {}
+[57.591176] (-) TimerEvent: {}
+[57.691845] (-) TimerEvent: {}
+[57.792570] (-) TimerEvent: {}
+[57.893520] (-) TimerEvent: {}
+[57.994492] (-) TimerEvent: {}
+[58.095353] (-) TimerEvent: {}
+[58.196097] (-) TimerEvent: {}
+[58.296845] (-) TimerEvent: {}
+[58.397596] (-) TimerEvent: {}
+[58.498333] (-) TimerEvent: {}
+[58.599106] (-) TimerEvent: {}
+[58.699751] (-) TimerEvent: {}
+[58.800380] (-) TimerEvent: {}
+[58.901055] (-) TimerEvent: {}
+[59.001674] (-) TimerEvent: {}
+[59.102272] (-) TimerEvent: {}
+[59.202954] (-) TimerEvent: {}
+[59.303571] (-) TimerEvent: {}
+[59.404274] (-) TimerEvent: {}
+[59.504990] (-) TimerEvent: {}
+[59.605503] (-) TimerEvent: {}
+[59.706039] (-) TimerEvent: {}
+[59.806579] (-) TimerEvent: {}
+[59.907099] (-) TimerEvent: {}
+[60.006056] (Stage) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libstage.so\x1b[0m\n'}
+[60.007259] (-) TimerEvent: {}
+[60.107754] (-) TimerEvent: {}
+[60.208280] (-) TimerEvent: {}
+[60.308925] (-) TimerEvent: {}
+[60.409622] (-) TimerEvent: {}
+[60.510547] (-) TimerEvent: {}
+[60.581077] (Stage) StdoutLine: {'line': b'[ 57%] Built target stage\n'}
+[60.610649] (-) TimerEvent: {}
+[60.664172] (Stage) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/sink.dir/sink.cc.o\x1b[0m\n'}
+[60.666906] (Stage) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stagebinary.dir/main.cc.o\x1b[0m\n'}
+[60.668244] (Stage) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/source.dir/source.cc.o\x1b[0m\n'}
+[60.670840] (Stage) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/fasr.dir/fasr.cc.o\x1b[0m\n'}
+[60.710828] (-) TimerEvent: {}
+[60.811698] (-) TimerEvent: {}
+[60.912465] (-) TimerEvent: {}
+[61.013163] (-) TimerEvent: {}
+[61.113882] (-) TimerEvent: {}
+[61.214690] (-) TimerEvent: {}
+[61.315259] (-) TimerEvent: {}
+[61.415904] (-) TimerEvent: {}
+[61.516531] (-) TimerEvent: {}
+[61.617224] (-) TimerEvent: {}
+[61.730700] (-) TimerEvent: {}
+[61.831652] (-) TimerEvent: {}
+[61.932550] (-) TimerEvent: {}
+[62.033299] (-) TimerEvent: {}
+[62.133977] (-) TimerEvent: {}
+[62.234599] (-) TimerEvent: {}
+[62.335215] (-) TimerEvent: {}
+[62.435802] (-) TimerEvent: {}
+[62.536433] (-) TimerEvent: {}
+[62.637178] (-) TimerEvent: {}
+[62.738035] (-) TimerEvent: {}
+[62.839411] (-) TimerEvent: {}
+[62.940367] (-) TimerEvent: {}
+[63.042323] (-) TimerEvent: {}
+[63.143361] (-) TimerEvent: {}
+[63.244280] (-) TimerEvent: {}
+[63.345381] (-) TimerEvent: {}
+[63.446281] (-) TimerEvent: {}
+[63.547129] (-) TimerEvent: {}
+[63.647902] (-) TimerEvent: {}
+[63.748616] (-) TimerEvent: {}
+[63.849331] (-) TimerEvent: {}
+[63.949953] (-) TimerEvent: {}
+[64.050572] (-) TimerEvent: {}
+[64.151202] (-) TimerEvent: {}
+[64.251912] (-) TimerEvent: {}
+[64.352598] (-) TimerEvent: {}
+[64.453295] (-) TimerEvent: {}
+[64.553980] (-) TimerEvent: {}
+[64.655362] (-) TimerEvent: {}
+[64.756007] (-) TimerEvent: {}
+[64.856793] (-) TimerEvent: {}
+[64.957463] (-) TimerEvent: {}
+[65.058241] (-) TimerEvent: {}
+[65.158977] (-) TimerEvent: {}
+[65.259779] (-) TimerEvent: {}
+[65.360965] (-) TimerEvent: {}
+[65.462211] (-) TimerEvent: {}
+[65.563009] (-) TimerEvent: {}
+[65.565626] (Stage) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared module sink.so\x1b[0m\n'}
+[65.663197] (-) TimerEvent: {}
+[65.763985] (-) TimerEvent: {}
+[65.851137] (Stage) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX executable stage\x1b[0m\n'}
+[65.864129] (-) TimerEvent: {}
+[65.964995] (-) TimerEvent: {}
+[66.070631] (-) TimerEvent: {}
+[66.171574] (-) TimerEvent: {}
+[66.178108] (Stage) StdoutLine: {'line': b'[ 67%] Built target sink\n'}
+[66.224848] (Stage) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared module fasr.so\x1b[0m\n'}
+[66.271760] (-) TimerEvent: {}
+[66.371207] (Stage) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/wander.dir/wander.cc.o\x1b[0m\n'}
+[66.371841] (-) TimerEvent: {}
+[66.472734] (-) TimerEvent: {}
+[66.574224] (-) TimerEvent: {}
+[66.675388] (-) TimerEvent: {}
+[66.726408] (Stage) StdoutLine: {'line': b'[ 71%] Built target stagebinary\n'}
+[66.775554] (-) TimerEvent: {}
+[66.869287] (Stage) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/pioneer_flocking.dir/pioneer_flocking.cc.o\x1b[0m\n'}
+[66.875698] (-) TimerEvent: {}
+[66.894345] (Stage) StdoutLine: {'line': b'[ 72%] Built target fasr\n'}
+[66.937819] (Stage) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared module source.so\x1b[0m\n'}
+[66.975840] (-) TimerEvent: {}
+[66.989628] (Stage) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/rasterize.dir/rasterize.cc.o\x1b[0m\n'}
+[67.076025] (-) TimerEvent: {}
+[67.176803] (-) TimerEvent: {}
+[67.277704] (-) TimerEvent: {}
+[67.376542] (Stage) StdoutLine: {'line': b'[ 76%] Built target source\n'}
+[67.377800] (-) TimerEvent: {}
+[67.461305] (Stage) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/lasernoise.dir/lasernoise.cc.o\x1b[0m\n'}
+[67.477978] (-) TimerEvent: {}
+[67.578685] (-) TimerEvent: {}
+[67.679259] (-) TimerEvent: {}
+[67.779884] (-) TimerEvent: {}
+[67.880557] (-) TimerEvent: {}
+[67.981291] (-) TimerEvent: {}
+[68.082868] (-) TimerEvent: {}
+[68.183563] (-) TimerEvent: {}
+[68.284317] (-) TimerEvent: {}
+[68.385070] (-) TimerEvent: {}
+[68.485835] (-) TimerEvent: {}
+[68.586674] (-) TimerEvent: {}
+[68.687443] (-) TimerEvent: {}
+[68.790448] (-) TimerEvent: {}
+[68.901605] (-) TimerEvent: {}
+[69.002689] (-) TimerEvent: {}
+[69.103864] (-) TimerEvent: {}
+[69.204997] (-) TimerEvent: {}
+[69.306308] (-) TimerEvent: {}
+[69.407503] (-) TimerEvent: {}
+[69.508583] (-) TimerEvent: {}
+[69.609592] (-) TimerEvent: {}
+[69.710731] (-) TimerEvent: {}
+[69.811813] (-) TimerEvent: {}
+[69.912550] (-) TimerEvent: {}
+[70.013267] (-) TimerEvent: {}
+[70.114001] (-) TimerEvent: {}
+[70.214695] (-) TimerEvent: {}
+[70.315486] (-) TimerEvent: {}
+[70.416209] (-) TimerEvent: {}
+[70.516948] (-) TimerEvent: {}
+[70.617724] (-) TimerEvent: {}
+[70.718592] (-) TimerEvent: {}
+[70.819438] (-) TimerEvent: {}
+[70.920347] (-) TimerEvent: {}
+[71.021190] (-) TimerEvent: {}
+[71.121977] (-) TimerEvent: {}
+[71.222785] (-) TimerEvent: {}
+[71.323504] (-) TimerEvent: {}
+[71.424259] (-) TimerEvent: {}
+[71.524924] (-) TimerEvent: {}
+[71.625683] (-) TimerEvent: {}
+[71.726570] (-) TimerEvent: {}
+[71.827387] (-) TimerEvent: {}
+[71.928274] (-) TimerEvent: {}
+[72.029086] (-) TimerEvent: {}
+[72.129897] (-) TimerEvent: {}
+[72.204296] (Stage) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared module wander.so\x1b[0m\n'}
+[72.230090] (-) TimerEvent: {}
+[72.330927] (-) TimerEvent: {}
+[72.433129] (-) TimerEvent: {}
+[72.502033] (Stage) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared module pioneer_flocking.so\x1b[0m\n'}
+[72.533372] (-) TimerEvent: {}
+[72.551315] (Stage) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared module rasterize.so\x1b[0m\n'}
+[72.633628] (-) TimerEvent: {}
+[72.735346] (-) TimerEvent: {}
+[72.776746] (Stage) StdoutLine: {'line': b'[ 83%] Built target wander\n'}
+[72.835111] (-) TimerEvent: {}
+[72.926572] (Stage) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/dynamic.dir/dynamic.cc.o\x1b[0m\n'}
+[72.935329] (-) TimerEvent: {}
+[73.036465] (-) TimerEvent: {}
+[73.137662] (-) TimerEvent: {}
+[73.230558] (Stage) StdoutLine: {'line': b'[ 84%] Built target pioneer_flocking\n'}
+[73.233022] (Stage) StdoutLine: {'line': b'[ 84%] Built target rasterize\n'}
+[73.237783] (-) TimerEvent: {}
+[73.327456] (Stage) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/fasr2.dir/fasr2.cc.o\x1b[0m\n'}
+[73.337963] (-) TimerEvent: {}
+[73.341415] (Stage) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object worlds/benchmark/CMakeFiles/expand_swarm.dir/expand_swarm.cc.o\x1b[0m\n'}
+[73.438719] (-) TimerEvent: {}
+[73.539472] (-) TimerEvent: {}
+[73.647168] (-) TimerEvent: {}
+[73.747963] (-) TimerEvent: {}
+[73.850868] (-) TimerEvent: {}
+[73.951516] (-) TimerEvent: {}
+[74.052340] (-) TimerEvent: {}
+[74.077184] (Stage) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX shared module lasernoise.so\x1b[0m\n'}
+[74.152505] (-) TimerEvent: {}
+[74.253369] (-) TimerEvent: {}
+[74.354124] (-) TimerEvent: {}
+[74.455250] (-) TimerEvent: {}
+[74.556321] (-) TimerEvent: {}
+[74.585214] (Stage) StdoutLine: {'line': b'[ 89%] Built target lasernoise\n'}
+[74.656895] (-) TimerEvent: {}
+[74.695574] (Stage) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object worlds/benchmark/CMakeFiles/expand_pioneer.dir/expand_pioneer.cc.o\x1b[0m\n'}
+[74.757079] (-) TimerEvent: {}
+[74.857905] (-) TimerEvent: {}
+[74.958685] (-) TimerEvent: {}
+[75.059485] (-) TimerEvent: {}
+[75.160254] (-) TimerEvent: {}
+[75.261053] (-) TimerEvent: {}
+[75.362171] (-) TimerEvent: {}
+[75.463217] (-) TimerEvent: {}
+[75.564280] (-) TimerEvent: {}
+[75.665277] (-) TimerEvent: {}
+[75.766232] (-) TimerEvent: {}
+[75.867361] (-) TimerEvent: {}
+[75.968698] (-) TimerEvent: {}
+[76.070158] (-) TimerEvent: {}
+[76.171401] (-) TimerEvent: {}
+[76.272878] (-) TimerEvent: {}
+[76.374413] (-) TimerEvent: {}
+[76.475913] (-) TimerEvent: {}
+[76.577064] (-) TimerEvent: {}
+[76.678018] (-) TimerEvent: {}
+[76.778994] (-) TimerEvent: {}
+[76.879867] (-) TimerEvent: {}
+[76.980608] (-) TimerEvent: {}
+[77.081364] (-) TimerEvent: {}
+[77.182062] (-) TimerEvent: {}
+[77.282799] (-) TimerEvent: {}
+[77.383572] (-) TimerEvent: {}
+[77.484303] (-) TimerEvent: {}
+[77.585060] (-) TimerEvent: {}
+[77.685862] (-) TimerEvent: {}
+[77.786696] (-) TimerEvent: {}
+[77.887698] (-) TimerEvent: {}
+[77.988635] (-) TimerEvent: {}
+[78.089421] (-) TimerEvent: {}
+[78.190382] (-) TimerEvent: {}
+[78.291460] (-) TimerEvent: {}
+[78.392713] (-) TimerEvent: {}
+[78.493632] (-) TimerEvent: {}
+[78.594592] (-) TimerEvent: {}
+[78.695343] (-) TimerEvent: {}
+[78.796034] (-) TimerEvent: {}
+[78.896655] (-) TimerEvent: {}
+[78.997289] (-) TimerEvent: {}
+[79.098012] (-) TimerEvent: {}
+[79.198780] (-) TimerEvent: {}
+[79.299390] (Stage) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX shared module dynamic.so\x1b[0m\n'}
+[79.300026] (-) TimerEvent: {}
+[79.400923] (-) TimerEvent: {}
+[79.502303] (-) TimerEvent: {}
+[79.603725] (-) TimerEvent: {}
+[79.704879] (-) TimerEvent: {}
+[79.766411] (Stage) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX shared module expand_swarm.so\x1b[0m\n'}
+[79.805111] (-) TimerEvent: {}
+[79.866986] (Stage) StdoutLine: {'line': b'[ 94%] Built target dynamic\n'}
+[79.903980] (Stage) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/fasr2.dir/astar/findpath.cpp.o\x1b[0m\n'}
+[79.905222] (-) TimerEvent: {}
+[80.006074] (-) TimerEvent: {}
+[80.107057] (-) TimerEvent: {}
+[80.207892] (-) TimerEvent: {}
+[80.218227] (Stage) StdoutLine: {'line': b'[ 96%] Built target expand_swarm\n'}
+[80.308029] (-) TimerEvent: {}
+[80.408565] (-) TimerEvent: {}
+[80.509445] (-) TimerEvent: {}
+[80.610273] (-) TimerEvent: {}
+[80.689115] (Stage) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX shared module expand_pioneer.so\x1b[0m\n'}
+[80.710434] (-) TimerEvent: {}
+[80.811133] (-) TimerEvent: {}
+[80.911921] (-) TimerEvent: {}
+[81.012860] (-) TimerEvent: {}
+[81.052885] (Stage) StdoutLine: {'line': b'[ 98%] Built target expand_pioneer\n'}
+[81.113034] (-) TimerEvent: {}
+[81.213760] (-) TimerEvent: {}
+[81.314331] (-) TimerEvent: {}
+[81.414965] (-) TimerEvent: {}
+[81.515576] (-) TimerEvent: {}
+[81.616131] (-) TimerEvent: {}
+[81.716602] (-) TimerEvent: {}
+[81.817028] (-) TimerEvent: {}
+[81.917472] (-) TimerEvent: {}
+[82.017907] (-) TimerEvent: {}
+[82.118314] (-) TimerEvent: {}
+[82.206785] (Stage) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared module fasr2.so\x1b[0m\n'}
+[82.218490] (-) TimerEvent: {}
+[82.319126] (-) TimerEvent: {}
+[82.419755] (-) TimerEvent: {}
+[82.520508] (-) TimerEvent: {}
+[82.601718] (Stage) StdoutLine: {'line': b'[100%] Built target fasr2\n'}
+[82.620686] (-) TimerEvent: {}
+[82.640764] (Stage) CommandEnded: {'returncode': 0}
+[82.642582] (Stage) JobProgress: {'identifier': 'Stage', 'progress': 'install'}
+[82.670710] (Stage) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rafaella/ros2_ws/build/Stage'], 'cwd': '/home/rafaella/ros2_ws/build/Stage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:pt:en'), ('USER', 'rafaella'), ('ROS_PACKAGE_PATH', '/home/rafaella/ros2_ws/install/stage/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rafaella/ros2_ws/install/stage_ros2/lib:/home/rafaella/ros2_ws/install/stage/lib:/home/rafaella/ros2_ws/install/Stage/lib:/home/rafaella/ros2_ws/install/example_interfaces/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rafaella'), ('OLDPWD', '/home/rafaella/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2056'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rafaella/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rafaella'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/rafaella/ros2_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/rafaella/ros2_ws/install/stage/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rafaella'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rafaella/ros2_ws/install/stage/bin:/home/rafaella/ros2_ws/install/Stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rafaella:@/tmp/.ICE-unix/1799,unix/rafaella:/tmp/.ICE-unix/1799'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4f3fe70c_d46a_407c_9b22_1f1a119c5e00'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KMRR72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/trab_stage_pkg:/home/rafaella/ros2_ws/install/example_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rafaella/ros2_ws/build/Stage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages:/home/rafaella/ros2_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/stage:/home/rafaella/ros2_ws/install/Stage:/home/rafaella/ros2_ws/install/example_interfaces')]), 'shell': False}
+[82.693472] (Stage) StdoutLine: {'line': b'-- Install configuration: "RELEASE"\n'}
+[82.694272] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/lib/pkgconfig/stage.pc\n'}
+[82.695107] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/lib/cmake/Stage/stage-config.cmake\n'}
+[82.695707] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/lib/cmake/Stage/stage-config-version.cmake\n'}
+[82.696923] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/bin/stage\n'}
+[82.699035] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/rafaella/ros2_ws/install/Stage/bin/stage" to ""\n'}
+[82.699780] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/lib/libstage.so.4.3.0\n'}
+[82.702814] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/lib/libstage.so\n'}
+[82.703426] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/include/Stage-4.3/stage.hh\n'}
+[82.705614] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/fasr.so\n'}
+[82.707385] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/fasr.so" to ""\n'}
+[82.707913] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/sink.so\n'}
+[82.709183] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/sink.so" to ""\n'}
+[82.709664] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/source.so\n'}
+[82.711013] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/source.so" to ""\n'}
+[82.711478] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/wander.so\n'}
+[82.712730] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/wander.so" to ""\n'}
+[82.713194] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/pioneer_flocking.so\n'}
+[82.714668] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/pioneer_flocking.so" to ""\n'}
+[82.715144] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/rasterize.so\n'}
+[82.716470] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/rasterize.so" to ""\n'}
+[82.716929] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/lasernoise.so\n'}
+[82.718254] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/lasernoise.so" to ""\n'}
+[82.718802] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/dynamic.so\n'}
+[82.720003] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/dynamic.so" to ""\n'}
+[82.720448] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/fasr2.so\n'}
+[82.720702] (-) TimerEvent: {}
+[82.722090] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/fasr2.so" to ""\n'}
+[82.722928] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/blue.png\n'}
+[82.723316] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/death.png\n'}
+[82.723842] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/green.png\n'}
+[82.724231] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/logo.png\n'}
+[82.724526] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/mains.png\n'}
+[82.725132] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/mainspower.png\n'}
+[82.725639] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/question_mark.png\n'}
+[82.726019] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/red.png\n'}
+[82.726347] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/stagelogo.png\n'}
+[82.726731] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/stall-old.png\n'}
+[82.727187] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/stall.png\n'}
+[82.727557] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/assets/rgb.txt\n'}
+[82.728065] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/rgb.txt\n'}
+[82.729066] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/amcl-sonar.cfg\n'}
+[82.729351] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/autolab.cfg\n'}
+[82.729715] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/camera.cfg\n'}
+[82.730092] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/everything.cfg\n'}
+[82.730541] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/lsp_test.cfg\n'}
+[82.730983] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/mbicp.cfg\n'}
+[82.731334] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/nd.cfg\n'}
+[82.731620] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/roomba.cfg\n'}
+[82.732014] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/simple.cfg\n'}
+[82.732307] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/test.cfg\n'}
+[82.732588] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/uoa_robotics_lab.cfg\n'}
+[82.732875] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/vfh.cfg\n'}
+[82.733156] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wavefront-remote.cfg\n'}
+[82.733493] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wavefront.cfg\n'}
+[82.733833] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi.cfg\n'}
+[82.734251] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/SFU.world\n'}
+[82.734724] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/autolab.world\n'}
+[82.735172] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/camera.world\n'}
+[82.735472] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/circuit.world\n'}
+[82.735818] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/everything.world\n'}
+[82.736236] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/fasr.world\n'}
+[82.736643] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/fasr2.world\n'}
+[82.737089] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/fasr_plan.world\n'}
+[82.737349] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/large.world\n'}
+[82.737715] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/lsp_test.world\n'}
+[82.738062] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/mbicp.world\n'}
+[82.738380] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/pioneer_flocking.world\n'}
+[82.738689] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/pioneer_follow.world\n'}
+[82.738997] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/pioneer_walle.world\n'}
+[82.739341] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/roomba.world\n'}
+[82.739679] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/sensor_noise_demo.world\n'}
+[82.740100] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/sensor_noise_module_demo.world\n'}
+[82.740509] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/simple.world\n'}
+[82.740903] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/uoa_robotics_lab.world\n'}
+[82.741319] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi.world\n'}
+[82.741754] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/beacons.inc\n'}
+[82.742011] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/chatterbox.inc\n'}
+[82.742346] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/hokuyo.inc\n'}
+[82.742781] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/irobot.inc\n'}
+[82.743099] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/map.inc\n'}
+[82.743361] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/objects.inc\n'}
+[82.743633] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/pantilt.inc\n'}
+[82.743974] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/pioneer.inc\n'}
+[82.744320] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/sick.inc\n'}
+[82.744639] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/ubot.inc\n'}
+[82.745019] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/uoa_robotics_lab_models.inc\n'}
+[82.745386] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/walle.inc\n'}
+[82.745731] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/cfggen.sh\n'}
+[82.746065] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/test.sh\n'}
+[82.746432] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/worldgen.sh\n'}
+[82.747617] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/expand_swarm.so\n'}
+[82.749348] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/expand_swarm.so" to ""\n'}
+[82.749644] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/expand_pioneer.so\n'}
+[82.751210] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/rafaella/ros2_ws/install/Stage/lib/Stage-4.3/expand_pioneer.so" to ""\n'}
+[82.752118] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/889_05.png\n'}
+[82.752753] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/SFU_1200x615.png\n'}
+[82.753511] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/SRI-AIC-kwing.png\n'}
+[82.753879] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/autolab.png\n'}
+[82.754162] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/cave.png\n'}
+[82.754471] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/cave_compact.png\n'}
+[82.754824] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/cave_filled.png\n'}
+[82.755110] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/frieburg.png\n'}
+[82.755502] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/ghost.png\n'}
+[82.755789] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/hospital.png\n'}
+[82.756194] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/hospital_section.png\n'}
+[82.756500] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/human_outline.png\n'}
+[82.756789] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/mbicp.png\n'}
+[82.757103] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/rink.png\n'}
+[82.757430] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/sal2.png\n'}
+[82.757692] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/simple_rooms.png\n'}
+[82.758021] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/space_invader.png\n'}
+[82.758358] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/submarine.png\n'}
+[82.758715] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/submarine_small.png\n'}
+[82.759030] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/table.png\n'}
+[82.759374] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/bitmaps/uoa_robotics_lab.png\n'}
+[82.760078] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi/commando.world\n'}
+[82.760402] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi/hosp_wifi.world\n'}
+[82.760737] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi/hosp_wifi_5.world\n'}
+[82.761084] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi/wifi.world\n'}
+[82.761406] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi/wifi_itu.world\n'}
+[82.761727] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi/wifi_logdistance.world\n'}
+[82.762046] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi/wifi_ray.world\n'}
+[82.762390] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi/wifi_simple.world\n'}
+[82.762811] (Stage) StdoutLine: {'line': b'-- Installing: /home/rafaella/ros2_ws/install/Stage/share/stage/worlds/wifi/map.inc\n'}
+[82.767586] (Stage) CommandEnded: {'returncode': 0}
+[82.797416] (Stage) JobEnded: {'identifier': 'Stage', 'rc': 0}
+[82.799718] (stage_ros2) JobStarted: {'identifier': 'stage_ros2'}
+[82.817009] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'cmake'}
+[82.820166] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/rafaella/ros2_ws/src/stage_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/rafaella/ros2_ws/install/stage_ros2'], 'cwd': '/home/rafaella/ros2_ws/build/stage_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:pt:en'), ('USER', 'rafaella'), ('ROS_PACKAGE_PATH', '/home/rafaella/ros2_ws/install/stage/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rafaella/ros2_ws/install/Stage/lib:/home/rafaella/ros2_ws/install/stage_ros2/lib:/home/rafaella/ros2_ws/install/stage/lib:/home/rafaella/ros2_ws/install/example_interfaces/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rafaella'), ('OLDPWD', '/home/rafaella/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2056'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rafaella/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rafaella'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/rafaella/ros2_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/rafaella/ros2_ws/install/stage/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rafaella'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rafaella/ros2_ws/install/Stage/bin:/home/rafaella/ros2_ws/install/stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rafaella:@/tmp/.ICE-unix/1799,unix/rafaella:/tmp/.ICE-unix/1799'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4f3fe70c_d46a_407c_9b22_1f1a119c5e00'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KMRR72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/trab_stage_pkg:/home/rafaella/ros2_ws/install/example_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rafaella/ros2_ws/build/stage_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages:/home/rafaella/ros2_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rafaella/ros2_ws/install/Stage:/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/stage:/home/rafaella/ros2_ws/install/example_interfaces:/home/rafaella/ros2_ws/install/trab_stage_pkg:/opt/ros/humble')]), 'shell': False}
+[82.824817] (-) TimerEvent: {}
+[82.925461] (-) TimerEvent: {}
+[82.982183] (stage_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[83.025642] (-) TimerEvent: {}
+[83.126156] (-) TimerEvent: {}
+[83.145058] (stage_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[83.167954] (stage_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[83.226328] (-) TimerEvent: {}
+[83.326981] (-) TimerEvent: {}
+[83.371866] (stage_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[83.396011] (stage_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[83.396907] (stage_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[83.398186] (stage_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[83.407128] (stage_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[83.427148] (-) TimerEvent: {}
+[83.527764] (-) TimerEvent: {}
+[83.628594] (-) TimerEvent: {}
+[83.647480] (stage_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[83.676306] (stage_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[83.677502] (stage_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[83.679191] (stage_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[83.686278] (stage_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[83.728766] (-) TimerEvent: {}
+[83.829244] (-) TimerEvent: {}
+[83.929727] (-) TimerEvent: {}
+[84.030226] (-) TimerEvent: {}
+[84.130656] (-) TimerEvent: {}
+[84.142853] (stage_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[84.230816] (-) TimerEvent: {}
+[84.331413] (-) TimerEvent: {}
+[84.342811] (stage_ros2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[84.421069] (stage_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[84.431549] (-) TimerEvent: {}
+[84.526514] (stage_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[84.531700] (-) TimerEvent: {}
+[84.538544] (stage_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[84.558889] (stage_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[84.593359] (stage_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[84.631860] (-) TimerEvent: {}
+[84.633121] (stage_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[84.732016] (-) TimerEvent: {}
+[84.738865] (stage_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[84.744715] (stage_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[84.832178] (-) TimerEvent: {}
+[84.933095] (-) TimerEvent: {}
+[85.035333] (-) TimerEvent: {}
+[85.105149] (stage_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[85.135529] (-) TimerEvent: {}
+[85.197566] (stage_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[85.235694] (-) TimerEvent: {}
+[85.315930] (stage_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[85.335838] (-) TimerEvent: {}
+[85.339199] (stage_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[85.436011] (-) TimerEvent: {}
+[85.529213] (stage_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[85.530707] (stage_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[85.536148] (-) TimerEvent: {}
+[85.636603] (-) TimerEvent: {}
+[85.706928] (stage_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[85.711451] (stage_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[85.736755] (-) TimerEvent: {}
+[85.820652] (stage_ros2) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[85.836899] (-) TimerEvent: {}
+[85.871390] (stage_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[85.936704] (stage_ros2) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[85.936938] (-) TimerEvent: {}
+[85.973073] (stage_ros2) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[86.037099] (-) TimerEvent: {}
+[86.117011] (stage_ros2) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[86.137253] (-) TimerEvent: {}
+[86.137607] (stage_ros2) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[86.140304] (stage_ros2) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[86.140685] (stage_ros2) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[86.145435] (stage_ros2) StdoutLine: {'line': b'-- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[86.184868] (stage_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[86.237482] (-) TimerEvent: {}
+[86.338147] (-) TimerEvent: {}
+[86.438866] (-) TimerEvent: {}
+[86.518884] (stage_ros2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[86.520085] (stage_ros2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/rafaella/ros2_ws/src/stage_ros2/./include;$<BUILD_INTERFACE:/home/rafaella/ros2_ws/src/stage_ros2/include>\n'}
+[86.520595] (stage_ros2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[86.525756] (stage_ros2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[86.533161] (stage_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[86.537059] (stage_ros2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[86.538996] (-) TimerEvent: {}
+[86.561686] (stage_ros2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[86.562100] (stage_ros2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[86.566872] (stage_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[86.593209] (stage_ros2) StdoutLine: {'line': b"-- Added test 'clang_format' to check C / C++ code style\n"}
+[86.597721] (stage_ros2) StdoutLine: {'line': b"-- Added test 'pycodestyle' to check Python code against some of the style conventions in PEP 8\n"}
+[86.602017] (stage_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[86.639148] (-) TimerEvent: {}
+[86.657711] (stage_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[86.673335] (stage_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/rafaella/ros2_ws/build/stage_ros2\n'}
+[86.698133] (stage_ros2) CommandEnded: {'returncode': 0}
+[86.699493] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'build'}
+[86.701654] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rafaella/ros2_ws/build/stage_ros2', '--', '-j4', '-l4'], 'cwd': '/home/rafaella/ros2_ws/build/stage_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:pt:en'), ('USER', 'rafaella'), ('ROS_PACKAGE_PATH', '/home/rafaella/ros2_ws/install/stage/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rafaella/ros2_ws/install/Stage/lib:/home/rafaella/ros2_ws/install/stage_ros2/lib:/home/rafaella/ros2_ws/install/stage/lib:/home/rafaella/ros2_ws/install/example_interfaces/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rafaella'), ('OLDPWD', '/home/rafaella/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2056'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rafaella/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rafaella'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/rafaella/ros2_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/rafaella/ros2_ws/install/stage/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rafaella'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rafaella/ros2_ws/install/Stage/bin:/home/rafaella/ros2_ws/install/stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rafaella:@/tmp/.ICE-unix/1799,unix/rafaella:/tmp/.ICE-unix/1799'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4f3fe70c_d46a_407c_9b22_1f1a119c5e00'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KMRR72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/trab_stage_pkg:/home/rafaella/ros2_ws/install/example_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rafaella/ros2_ws/build/stage_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages:/home/rafaella/ros2_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rafaella/ros2_ws/install/Stage:/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/stage:/home/rafaella/ros2_ws/install/example_interfaces:/home/rafaella/ros2_ws/install/trab_stage_pkg:/opt/ros/humble')]), 'shell': False}
+[86.739323] (-) TimerEvent: {}
+[86.824740] (stage_ros2) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/stage_node.cpp.o\x1b[0m\n'}
+[86.829912] (stage_ros2) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/vehicle.cpp.o\x1b[0m\n'}
+[86.832235] (stage_ros2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/ranger.cpp.o\x1b[0m\n'}
+[86.839464] (-) TimerEvent: {}
+[86.940002] (-) TimerEvent: {}
+[87.040518] (-) TimerEvent: {}
+[87.141020] (-) TimerEvent: {}
+[87.241485] (-) TimerEvent: {}
+[87.341999] (-) TimerEvent: {}
+[87.442441] (-) TimerEvent: {}
+[87.542895] (-) TimerEvent: {}
+[87.643297] (-) TimerEvent: {}
+[87.743738] (-) TimerEvent: {}
+[87.844257] (-) TimerEvent: {}
+[87.944779] (-) TimerEvent: {}
+[88.045354] (-) TimerEvent: {}
+[88.145939] (-) TimerEvent: {}
+[88.246538] (-) TimerEvent: {}
+[88.347132] (-) TimerEvent: {}
+[88.447725] (-) TimerEvent: {}
+[88.548358] (-) TimerEvent: {}
+[88.648971] (-) TimerEvent: {}
+[88.749539] (-) TimerEvent: {}
+[88.850120] (-) TimerEvent: {}
+[88.950774] (-) TimerEvent: {}
+[89.051485] (-) TimerEvent: {}
+[89.152222] (-) TimerEvent: {}
+[89.252882] (-) TimerEvent: {}
+[89.353496] (-) TimerEvent: {}
+[89.454160] (-) TimerEvent: {}
+[89.554820] (-) TimerEvent: {}
+[89.655490] (-) TimerEvent: {}
+[89.756225] (-) TimerEvent: {}
+[89.856939] (-) TimerEvent: {}
+[89.957626] (-) TimerEvent: {}
+[90.058306] (-) TimerEvent: {}
+[90.159038] (-) TimerEvent: {}
+[90.259657] (-) TimerEvent: {}
+[90.360285] (-) TimerEvent: {}
+[90.460904] (-) TimerEvent: {}
+[90.561599] (-) TimerEvent: {}
+[90.662422] (-) TimerEvent: {}
+[90.763209] (-) TimerEvent: {}
+[90.863875] (-) TimerEvent: {}
+[90.964618] (-) TimerEvent: {}
+[91.065413] (-) TimerEvent: {}
+[91.166142] (-) TimerEvent: {}
+[91.266919] (-) TimerEvent: {}
+[91.367736] (-) TimerEvent: {}
+[91.468409] (-) TimerEvent: {}
+[91.569164] (-) TimerEvent: {}
+[91.670097] (-) TimerEvent: {}
+[91.771589] (-) TimerEvent: {}
+[91.872885] (-) TimerEvent: {}
+[91.973881] (-) TimerEvent: {}
+[92.075079] (-) TimerEvent: {}
+[92.176349] (-) TimerEvent: {}
+[92.277181] (-) TimerEvent: {}
+[92.377951] (-) TimerEvent: {}
+[92.479273] (-) TimerEvent: {}
+[92.580365] (-) TimerEvent: {}
+[92.681388] (-) TimerEvent: {}
+[92.782181] (-) TimerEvent: {}
+[92.883009] (-) TimerEvent: {}
+[92.983662] (-) TimerEvent: {}
+[93.084334] (-) TimerEvent: {}
+[93.185044] (-) TimerEvent: {}
+[93.285808] (-) TimerEvent: {}
+[93.386962] (-) TimerEvent: {}
+[93.488338] (-) TimerEvent: {}
+[93.589274] (-) TimerEvent: {}
+[93.690001] (-) TimerEvent: {}
+[93.790775] (-) TimerEvent: {}
+[93.891800] (-) TimerEvent: {}
+[93.992986] (-) TimerEvent: {}
+[94.094431] (-) TimerEvent: {}
+[94.195358] (-) TimerEvent: {}
+[94.296208] (-) TimerEvent: {}
+[94.397372] (-) TimerEvent: {}
+[94.498562] (-) TimerEvent: {}
+[94.599788] (-) TimerEvent: {}
+[94.700671] (-) TimerEvent: {}
+[94.802297] (-) TimerEvent: {}
+[94.903205] (-) TimerEvent: {}
+[95.004185] (-) TimerEvent: {}
+[95.105383] (-) TimerEvent: {}
+[95.206640] (-) TimerEvent: {}
+[95.307801] (-) TimerEvent: {}
+[95.408861] (-) TimerEvent: {}
+[95.509746] (-) TimerEvent: {}
+[95.610664] (-) TimerEvent: {}
+[95.711546] (-) TimerEvent: {}
+[95.812461] (-) TimerEvent: {}
+[95.913497] (-) TimerEvent: {}
+[96.014357] (-) TimerEvent: {}
+[96.115228] (-) TimerEvent: {}
+[96.216057] (-) TimerEvent: {}
+[96.317464] (-) TimerEvent: {}
+[96.418685] (-) TimerEvent: {}
+[96.519838] (-) TimerEvent: {}
+[96.620632] (-) TimerEvent: {}
+[96.721465] (-) TimerEvent: {}
+[96.822317] (-) TimerEvent: {}
+[96.923393] (-) TimerEvent: {}
+[97.024411] (-) TimerEvent: {}
+[97.125195] (-) TimerEvent: {}
+[97.225908] (-) TimerEvent: {}
+[97.326987] (-) TimerEvent: {}
+[97.427713] (-) TimerEvent: {}
+[97.528757] (-) TimerEvent: {}
+[97.629962] (-) TimerEvent: {}
+[97.731558] (-) TimerEvent: {}
+[97.832653] (-) TimerEvent: {}
+[97.933592] (-) TimerEvent: {}
+[98.034441] (-) TimerEvent: {}
+[98.135406] (-) TimerEvent: {}
+[98.237092] (-) TimerEvent: {}
+[98.337986] (-) TimerEvent: {}
+[98.439143] (-) TimerEvent: {}
+[98.540542] (-) TimerEvent: {}
+[98.641807] (-) TimerEvent: {}
+[98.742947] (-) TimerEvent: {}
+[98.844251] (-) TimerEvent: {}
+[98.945470] (-) TimerEvent: {}
+[99.046368] (-) TimerEvent: {}
+[99.147292] (-) TimerEvent: {}
+[99.248117] (-) TimerEvent: {}
+[99.349225] (-) TimerEvent: {}
+[99.450552] (-) TimerEvent: {}
+[99.551532] (-) TimerEvent: {}
+[99.652430] (-) TimerEvent: {}
+[99.753289] (-) TimerEvent: {}
+[99.854012] (-) TimerEvent: {}
+[99.954757] (-) TimerEvent: {}
+[100.055506] (-) TimerEvent: {}
+[100.156450] (-) TimerEvent: {}
+[100.258641] (-) TimerEvent: {}
+[100.359597] (-) TimerEvent: {}
+[100.463964] (-) TimerEvent: {}
+[100.570797] (-) TimerEvent: {}
+[100.673635] (-) TimerEvent: {}
+[100.774643] (-) TimerEvent: {}
+[100.875904] (-) TimerEvent: {}
+[100.977185] (-) TimerEvent: {}
+[101.078359] (-) TimerEvent: {}
+[101.179716] (-) TimerEvent: {}
+[101.280670] (-) TimerEvent: {}
+[101.381627] (-) TimerEvent: {}
+[101.482624] (-) TimerEvent: {}
+[101.583614] (-) TimerEvent: {}
+[101.684694] (-) TimerEvent: {}
+[101.785883] (-) TimerEvent: {}
+[101.886988] (-) TimerEvent: {}
+[101.987817] (-) TimerEvent: {}
+[102.088703] (-) TimerEvent: {}
+[102.189764] (-) TimerEvent: {}
+[102.290730] (-) TimerEvent: {}
+[102.391577] (-) TimerEvent: {}
+[102.492475] (-) TimerEvent: {}
+[102.593361] (-) TimerEvent: {}
+[102.694142] (-) TimerEvent: {}
+[102.794911] (-) TimerEvent: {}
+[102.896202] (-) TimerEvent: {}
+[102.997085] (-) TimerEvent: {}
+[103.098017] (-) TimerEvent: {}
+[103.199543] (-) TimerEvent: {}
+[103.300940] (-) TimerEvent: {}
+[103.401683] (-) TimerEvent: {}
+[103.502473] (-) TimerEvent: {}
+[103.603992] (-) TimerEvent: {}
+[103.704915] (-) TimerEvent: {}
+[103.806374] (-) TimerEvent: {}
+[103.907700] (-) TimerEvent: {}
+[104.008997] (-) TimerEvent: {}
+[104.110441] (-) TimerEvent: {}
+[104.211781] (-) TimerEvent: {}
+[104.313175] (-) TimerEvent: {}
+[104.414762] (-) TimerEvent: {}
+[104.516230] (-) TimerEvent: {}
+[104.617698] (-) TimerEvent: {}
+[104.719136] (-) TimerEvent: {}
+[104.820274] (-) TimerEvent: {}
+[104.921437] (-) TimerEvent: {}
+[105.022631] (-) TimerEvent: {}
+[105.123779] (-) TimerEvent: {}
+[105.225054] (-) TimerEvent: {}
+[105.326815] (-) TimerEvent: {}
+[105.428359] (-) TimerEvent: {}
+[105.529851] (-) TimerEvent: {}
+[105.631271] (-) TimerEvent: {}
+[105.732566] (-) TimerEvent: {}
+[105.833818] (-) TimerEvent: {}
+[105.934699] (-) TimerEvent: {}
+[106.035579] (-) TimerEvent: {}
+[106.136470] (-) TimerEvent: {}
+[106.237837] (-) TimerEvent: {}
+[106.339373] (-) TimerEvent: {}
+[106.440860] (-) TimerEvent: {}
+[106.542309] (-) TimerEvent: {}
+[106.643400] (-) TimerEvent: {}
+[106.751144] (-) TimerEvent: {}
+[106.852769] (-) TimerEvent: {}
+[106.954385] (-) TimerEvent: {}
+[107.056034] (-) TimerEvent: {}
+[107.157113] (-) TimerEvent: {}
+[107.257997] (-) TimerEvent: {}
+[107.359290] (-) TimerEvent: {}
+[107.460585] (-) TimerEvent: {}
+[107.561473] (-) TimerEvent: {}
+[107.662364] (-) TimerEvent: {}
+[107.763290] (-) TimerEvent: {}
+[107.865292] (-) TimerEvent: {}
+[107.966646] (-) TimerEvent: {}
+[108.067920] (-) TimerEvent: {}
+[108.168825] (-) TimerEvent: {}
+[108.269544] (-) TimerEvent: {}
+[108.370627] (-) TimerEvent: {}
+[108.471604] (-) TimerEvent: {}
+[108.572599] (-) TimerEvent: {}
+[108.673450] (-) TimerEvent: {}
+[108.774549] (-) TimerEvent: {}
+[108.875256] (-) TimerEvent: {}
+[108.975930] (-) TimerEvent: {}
+[109.077010] (-) TimerEvent: {}
+[109.178220] (-) TimerEvent: {}
+[109.281221] (-) TimerEvent: {}
+[109.382099] (-) TimerEvent: {}
+[109.483045] (-) TimerEvent: {}
+[109.583990] (-) TimerEvent: {}
+[109.684707] (-) TimerEvent: {}
+[109.785437] (-) TimerEvent: {}
+[109.886164] (-) TimerEvent: {}
+[109.987026] (-) TimerEvent: {}
+[110.087876] (-) TimerEvent: {}
+[110.189046] (-) TimerEvent: {}
+[110.290477] (-) TimerEvent: {}
+[110.391970] (-) TimerEvent: {}
+[110.493271] (-) TimerEvent: {}
+[110.594777] (-) TimerEvent: {}
+[110.695542] (-) TimerEvent: {}
+[110.796592] (-) TimerEvent: {}
+[110.897623] (-) TimerEvent: {}
+[110.998560] (-) TimerEvent: {}
+[111.099865] (-) TimerEvent: {}
+[111.200756] (-) TimerEvent: {}
+[111.306745] (-) TimerEvent: {}
+[111.408478] (-) TimerEvent: {}
+[111.509407] (-) TimerEvent: {}
+[111.610240] (-) TimerEvent: {}
+[111.711121] (-) TimerEvent: {}
+[111.811968] (-) TimerEvent: {}
+[111.912881] (-) TimerEvent: {}
+[112.013749] (-) TimerEvent: {}
+[112.114788] (-) TimerEvent: {}
+[112.215631] (-) TimerEvent: {}
+[112.316609] (-) TimerEvent: {}
+[112.418254] (-) TimerEvent: {}
+[112.519923] (-) TimerEvent: {}
+[112.621126] (-) TimerEvent: {}
+[112.722753] (-) TimerEvent: {}
+[112.826815] (-) TimerEvent: {}
+[112.928892] (-) TimerEvent: {}
+[113.030632] (-) TimerEvent: {}
+[113.132261] (-) TimerEvent: {}
+[113.238435] (-) TimerEvent: {}
+[113.339350] (-) TimerEvent: {}
+[113.440250] (-) TimerEvent: {}
+[113.541147] (-) TimerEvent: {}
+[113.642142] (-) TimerEvent: {}
+[113.743652] (-) TimerEvent: {}
+[113.845302] (-) TimerEvent: {}
+[113.946352] (-) TimerEvent: {}
+[114.048125] (-) TimerEvent: {}
+[114.149835] (-) TimerEvent: {}
+[114.251085] (-) TimerEvent: {}
+[114.352183] (-) TimerEvent: {}
+[114.453010] (-) TimerEvent: {}
+[114.553987] (-) TimerEvent: {}
+[114.654930] (-) TimerEvent: {}
+[114.755973] (-) TimerEvent: {}
+[114.856924] (-) TimerEvent: {}
+[114.957781] (-) TimerEvent: {}
+[115.059145] (-) TimerEvent: {}
+[115.160871] (-) TimerEvent: {}
+[115.261950] (-) TimerEvent: {}
+[115.363139] (-) TimerEvent: {}
+[115.463818] (-) TimerEvent: {}
+[115.564580] (-) TimerEvent: {}
+[115.666223] (-) TimerEvent: {}
+[115.767727] (-) TimerEvent: {}
+[115.868519] (-) TimerEvent: {}
+[115.969473] (-) TimerEvent: {}
+[116.071130] (-) TimerEvent: {}
+[116.172375] (-) TimerEvent: {}
+[116.273619] (-) TimerEvent: {}
+[116.374682] (-) TimerEvent: {}
+[116.475506] (-) TimerEvent: {}
+[116.576217] (-) TimerEvent: {}
+[116.676906] (-) TimerEvent: {}
+[116.777585] (-) TimerEvent: {}
+[116.878629] (-) TimerEvent: {}
+[116.979550] (-) TimerEvent: {}
+[117.080240] (-) TimerEvent: {}
+[117.180943] (-) TimerEvent: {}
+[117.281993] (-) TimerEvent: {}
+[117.383712] (-) TimerEvent: {}
+[117.485437] (-) TimerEvent: {}
+[117.587250] (-) TimerEvent: {}
+[117.688954] (-) TimerEvent: {}
+[117.790490] (-) TimerEvent: {}
+[117.892022] (-) TimerEvent: {}
+[117.992955] (-) TimerEvent: {}
+[118.093844] (-) TimerEvent: {}
+[118.194827] (-) TimerEvent: {}
+[118.295732] (-) TimerEvent: {}
+[118.396827] (-) TimerEvent: {}
+[118.497724] (-) TimerEvent: {}
+[118.598664] (-) TimerEvent: {}
+[118.699611] (-) TimerEvent: {}
+[118.800525] (-) TimerEvent: {}
+[118.901285] (-) TimerEvent: {}
+[119.002218] (-) TimerEvent: {}
+[119.102875] (-) TimerEvent: {}
+[119.203954] (-) TimerEvent: {}
+[119.305471] (-) TimerEvent: {}
+[119.406839] (-) TimerEvent: {}
+[119.507899] (-) TimerEvent: {}
+[119.608593] (-) TimerEvent: {}
+[119.709300] (-) TimerEvent: {}
+[119.810625] (-) TimerEvent: {}
+[119.911238] (-) TimerEvent: {}
+[120.011935] (-) TimerEvent: {}
+[120.112623] (-) TimerEvent: {}
+[120.213318] (-) TimerEvent: {}
+[120.314003] (-) TimerEvent: {}
+[120.414709] (-) TimerEvent: {}
+[120.515351] (-) TimerEvent: {}
+[120.616004] (-) TimerEvent: {}
+[120.716645] (-) TimerEvent: {}
+[120.817222] (-) TimerEvent: {}
+[120.917843] (-) TimerEvent: {}
+[121.018488] (-) TimerEvent: {}
+[121.119179] (-) TimerEvent: {}
+[121.219853] (-) TimerEvent: {}
+[121.325466] (-) TimerEvent: {}
+[121.427817] (-) TimerEvent: {}
+[121.443981] (stage_ros2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/camera.cpp.o\x1b[0m\n'}
+[121.528043] (-) TimerEvent: {}
+[121.628959] (-) TimerEvent: {}
+[121.729840] (-) TimerEvent: {}
+[121.830687] (-) TimerEvent: {}
+[121.931626] (-) TimerEvent: {}
+[122.032297] (-) TimerEvent: {}
+[122.132951] (-) TimerEvent: {}
+[122.233595] (-) TimerEvent: {}
+[122.334681] (-) TimerEvent: {}
+[122.435326] (-) TimerEvent: {}
+[122.535916] (-) TimerEvent: {}
+[122.636512] (-) TimerEvent: {}
+[122.737114] (-) TimerEvent: {}
+[122.837751] (-) TimerEvent: {}
+[122.938362] (-) TimerEvent: {}
+[123.039016] (-) TimerEvent: {}
+[123.139623] (-) TimerEvent: {}
+[123.240211] (-) TimerEvent: {}
+[123.340827] (-) TimerEvent: {}
+[123.441413] (-) TimerEvent: {}
+[123.542287] (-) TimerEvent: {}
+[123.642934] (-) TimerEvent: {}
+[123.743550] (-) TimerEvent: {}
+[123.844493] (-) TimerEvent: {}
+[123.945424] (-) TimerEvent: {}
+[124.046391] (-) TimerEvent: {}
+[124.147300] (-) TimerEvent: {}
+[124.248115] (-) TimerEvent: {}
+[124.349544] (-) TimerEvent: {}
+[124.450189] (-) TimerEvent: {}
+[124.550876] (-) TimerEvent: {}
+[124.652065] (-) TimerEvent: {}
+[124.753419] (-) TimerEvent: {}
+[124.854219] (-) TimerEvent: {}
+[124.955485] (-) TimerEvent: {}
+[125.056792] (-) TimerEvent: {}
+[125.157702] (-) TimerEvent: {}
+[125.258659] (-) TimerEvent: {}
+[125.359624] (-) TimerEvent: {}
+[125.460363] (-) TimerEvent: {}
+[125.561189] (-) TimerEvent: {}
+[125.661892] (-) TimerEvent: {}
+[125.766714] (-) TimerEvent: {}
+[125.869602] (-) TimerEvent: {}
+[125.970635] (-) TimerEvent: {}
+[126.071255] (-) TimerEvent: {}
+[126.171862] (-) TimerEvent: {}
+[126.272696] (-) TimerEvent: {}
+[126.373297] (-) TimerEvent: {}
+[126.473897] (-) TimerEvent: {}
+[126.574552] (-) TimerEvent: {}
+[126.675229] (-) TimerEvent: {}
+[126.776116] (-) TimerEvent: {}
+[126.877033] (-) TimerEvent: {}
+[126.977930] (-) TimerEvent: {}
+[127.078661] (-) TimerEvent: {}
+[127.179506] (-) TimerEvent: {}
+[127.280366] (-) TimerEvent: {}
+[127.381120] (-) TimerEvent: {}
+[127.481851] (-) TimerEvent: {}
+[127.582638] (-) TimerEvent: {}
+[127.683365] (-) TimerEvent: {}
+[127.784119] (-) TimerEvent: {}
+[127.884992] (-) TimerEvent: {}
+[127.985783] (-) TimerEvent: {}
+[128.086543] (-) TimerEvent: {}
+[128.187295] (-) TimerEvent: {}
+[128.288193] (-) TimerEvent: {}
+[128.389035] (-) TimerEvent: {}
+[128.490134] (-) TimerEvent: {}
+[128.590907] (-) TimerEvent: {}
+[128.691714] (-) TimerEvent: {}
+[128.792699] (-) TimerEvent: {}
+[128.893513] (-) TimerEvent: {}
+[128.994262] (-) TimerEvent: {}
+[129.095068] (-) TimerEvent: {}
+[129.196093] (-) TimerEvent: {}
+[129.296925] (-) TimerEvent: {}
+[129.397560] (-) TimerEvent: {}
+[129.498184] (-) TimerEvent: {}
+[129.598926] (-) TimerEvent: {}
+[129.699551] (-) TimerEvent: {}
+[129.800109] (-) TimerEvent: {}
+[129.900705] (-) TimerEvent: {}
+[130.001283] (-) TimerEvent: {}
+[130.101920] (-) TimerEvent: {}
+[130.202641] (-) TimerEvent: {}
+[130.303241] (-) TimerEvent: {}
+[130.403887] (-) TimerEvent: {}
+[130.504708] (-) TimerEvent: {}
+[130.605714] (-) TimerEvent: {}
+[130.706421] (-) TimerEvent: {}
+[130.807179] (-) TimerEvent: {}
+[130.908151] (-) TimerEvent: {}
+[131.008866] (-) TimerEvent: {}
+[131.109410] (-) TimerEvent: {}
+[131.210114] (-) TimerEvent: {}
+[131.311053] (-) TimerEvent: {}
+[131.411991] (-) TimerEvent: {}
+[131.512725] (-) TimerEvent: {}
+[131.613331] (-) TimerEvent: {}
+[131.713944] (-) TimerEvent: {}
+[131.814577] (-) TimerEvent: {}
+[131.915166] (-) TimerEvent: {}
+[132.015758] (-) TimerEvent: {}
+[132.116346] (-) TimerEvent: {}
+[132.216890] (-) TimerEvent: {}
+[132.317679] (-) TimerEvent: {}
+[132.419151] (-) TimerEvent: {}
+[132.519994] (-) TimerEvent: {}
+[132.620718] (-) TimerEvent: {}
+[132.721969] (-) TimerEvent: {}
+[132.822880] (-) TimerEvent: {}
+[132.923670] (-) TimerEvent: {}
+[133.024314] (-) TimerEvent: {}
+[133.124929] (-) TimerEvent: {}
+[133.225536] (-) TimerEvent: {}
+[133.326259] (-) TimerEvent: {}
+[133.427261] (-) TimerEvent: {}
+[133.527898] (-) TimerEvent: {}
+[133.628506] (-) TimerEvent: {}
+[133.729160] (-) TimerEvent: {}
+[133.829798] (-) TimerEvent: {}
+[133.930368] (-) TimerEvent: {}
+[134.031106] (-) TimerEvent: {}
+[134.131727] (-) TimerEvent: {}
+[134.232358] (-) TimerEvent: {}
+[134.332988] (-) TimerEvent: {}
+[134.433567] (-) TimerEvent: {}
+[134.534129] (-) TimerEvent: {}
+[134.634713] (-) TimerEvent: {}
+[134.735272] (-) TimerEvent: {}
+[134.835866] (-) TimerEvent: {}
+[134.936408] (-) TimerEvent: {}
+[135.036953] (-) TimerEvent: {}
+[135.137536] (-) TimerEvent: {}
+[135.238128] (-) TimerEvent: {}
+[135.338694] (-) TimerEvent: {}
+[135.439316] (-) TimerEvent: {}
+[135.539938] (-) TimerEvent: {}
+[135.640501] (-) TimerEvent: {}
+[135.741045] (-) TimerEvent: {}
+[135.841627] (-) TimerEvent: {}
+[135.942250] (-) TimerEvent: {}
+[136.042914] (-) TimerEvent: {}
+[136.143786] (-) TimerEvent: {}
+[136.244457] (-) TimerEvent: {}
+[136.345130] (-) TimerEvent: {}
+[136.445787] (-) TimerEvent: {}
+[136.546446] (-) TimerEvent: {}
+[136.647055] (-) TimerEvent: {}
+[136.747618] (-) TimerEvent: {}
+[136.848331] (-) TimerEvent: {}
+[136.948973] (-) TimerEvent: {}
+[137.049661] (-) TimerEvent: {}
+[137.150660] (-) TimerEvent: {}
+[137.251602] (-) TimerEvent: {}
+[137.352398] (-) TimerEvent: {}
+[137.453026] (-) TimerEvent: {}
+[137.553659] (-) TimerEvent: {}
+[137.654299] (-) TimerEvent: {}
+[137.755030] (-) TimerEvent: {}
+[137.855988] (-) TimerEvent: {}
+[137.956860] (-) TimerEvent: {}
+[138.057759] (-) TimerEvent: {}
+[138.158582] (-) TimerEvent: {}
+[138.259420] (-) TimerEvent: {}
+[138.360213] (-) TimerEvent: {}
+[138.461115] (-) TimerEvent: {}
+[138.561924] (-) TimerEvent: {}
+[138.662766] (-) TimerEvent: {}
+[138.763722] (-) TimerEvent: {}
+[138.864686] (-) TimerEvent: {}
+[138.965651] (-) TimerEvent: {}
+[139.066689] (-) TimerEvent: {}
+[139.167653] (-) TimerEvent: {}
+[139.268635] (-) TimerEvent: {}
+[139.369578] (-) TimerEvent: {}
+[139.470196] (-) TimerEvent: {}
+[139.570889] (-) TimerEvent: {}
+[139.671691] (-) TimerEvent: {}
+[139.772887] (-) TimerEvent: {}
+[139.873712] (-) TimerEvent: {}
+[139.974394] (-) TimerEvent: {}
+[140.075044] (-) TimerEvent: {}
+[140.175663] (-) TimerEvent: {}
+[140.276312] (-) TimerEvent: {}
+[140.377140] (-) TimerEvent: {}
+[140.477926] (-) TimerEvent: {}
+[140.578628] (-) TimerEvent: {}
+[140.679393] (-) TimerEvent: {}
+[140.780321] (-) TimerEvent: {}
+[140.881058] (-) TimerEvent: {}
+[140.981583] (-) TimerEvent: {}
+[141.082123] (-) TimerEvent: {}
+[141.182652] (-) TimerEvent: {}
+[141.283171] (-) TimerEvent: {}
+[141.383675] (-) TimerEvent: {}
+[141.484190] (-) TimerEvent: {}
+[141.584706] (-) TimerEvent: {}
+[141.685288] (-) TimerEvent: {}
+[141.786567] (-) TimerEvent: {}
+[141.887578] (-) TimerEvent: {}
+[141.988512] (-) TimerEvent: {}
+[142.089501] (-) TimerEvent: {}
+[142.190276] (-) TimerEvent: {}
+[142.290837] (-) TimerEvent: {}
+[142.391308] (-) TimerEvent: {}
+[142.491769] (-) TimerEvent: {}
+[142.592245] (-) TimerEvent: {}
+[142.692713] (-) TimerEvent: {}
+[142.793205] (-) TimerEvent: {}
+[142.893724] (-) TimerEvent: {}
+[142.994418] (-) TimerEvent: {}
+[143.095090] (-) TimerEvent: {}
+[143.195770] (-) TimerEvent: {}
+[143.296386] (-) TimerEvent: {}
+[143.396865] (-) TimerEvent: {}
+[143.497323] (-) TimerEvent: {}
+[143.597775] (-) TimerEvent: {}
+[143.698257] (-) TimerEvent: {}
+[143.798656] (-) TimerEvent: {}
+[143.899067] (-) TimerEvent: {}
+[143.999485] (-) TimerEvent: {}
+[144.099923] (-) TimerEvent: {}
+[144.200340] (-) TimerEvent: {}
+[144.300777] (-) TimerEvent: {}
+[144.401217] (-) TimerEvent: {}
+[144.501685] (-) TimerEvent: {}
+[144.602142] (-) TimerEvent: {}
+[144.702557] (-) TimerEvent: {}
+[144.803107] (-) TimerEvent: {}
+[144.903860] (-) TimerEvent: {}
+[145.004379] (-) TimerEvent: {}
+[145.087513] (stage_ros2) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libstage_node.so\x1b[0m\n'}
+[145.104528] (-) TimerEvent: {}
+[145.205078] (-) TimerEvent: {}
+[145.305649] (-) TimerEvent: {}
+[145.406233] (-) TimerEvent: {}
+[145.506845] (-) TimerEvent: {}
+[145.607621] (-) TimerEvent: {}
+[145.708438] (-) TimerEvent: {}
+[145.809299] (-) TimerEvent: {}
+[145.910246] (-) TimerEvent: {}
+[146.011320] (-) TimerEvent: {}
+[146.112296] (-) TimerEvent: {}
+[146.213275] (-) TimerEvent: {}
+[146.314326] (-) TimerEvent: {}
+[146.416117] (-) TimerEvent: {}
+[146.517364] (-) TimerEvent: {}
+[146.618485] (-) TimerEvent: {}
+[146.719442] (-) TimerEvent: {}
+[146.820388] (-) TimerEvent: {}
+[146.921371] (-) TimerEvent: {}
+[147.022277] (-) TimerEvent: {}
+[147.122904] (-) TimerEvent: {}
+[147.223817] (-) TimerEvent: {}
+[147.324333] (-) TimerEvent: {}
+[147.424895] (-) TimerEvent: {}
+[147.525553] (-) TimerEvent: {}
+[147.626264] (-) TimerEvent: {}
+[147.727155] (-) TimerEvent: {}
+[147.827823] (-) TimerEvent: {}
+[147.928359] (-) TimerEvent: {}
+[148.029062] (-) TimerEvent: {}
+[148.130053] (-) TimerEvent: {}
+[148.231115] (-) TimerEvent: {}
+[148.332091] (-) TimerEvent: {}
+[148.432980] (-) TimerEvent: {}
+[148.533713] (-) TimerEvent: {}
+[148.634371] (-) TimerEvent: {}
+[148.735165] (-) TimerEvent: {}
+[148.745822] (stage_ros2) StdoutLine: {'line': b'[ 71%] Built target stage_node\n'}
+[148.820385] (stage_ros2) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/stage_ros2.dir/src/main.cpp.o\x1b[0m\n'}
+[148.835350] (-) TimerEvent: {}
+[148.935995] (-) TimerEvent: {}
+[149.036620] (-) TimerEvent: {}
+[149.137038] (-) TimerEvent: {}
+[149.237503] (-) TimerEvent: {}
+[149.338055] (-) TimerEvent: {}
+[149.438864] (-) TimerEvent: {}
+[149.539487] (-) TimerEvent: {}
+[149.639988] (-) TimerEvent: {}
+[149.740490] (-) TimerEvent: {}
+[149.840985] (-) TimerEvent: {}
+[149.941477] (-) TimerEvent: {}
+[150.041974] (-) TimerEvent: {}
+[150.142479] (-) TimerEvent: {}
+[150.243000] (-) TimerEvent: {}
+[150.343556] (-) TimerEvent: {}
+[150.444063] (-) TimerEvent: {}
+[150.544602] (-) TimerEvent: {}
+[150.645124] (-) TimerEvent: {}
+[150.745658] (-) TimerEvent: {}
+[150.846251] (-) TimerEvent: {}
+[150.946853] (-) TimerEvent: {}
+[151.047450] (-) TimerEvent: {}
+[151.148048] (-) TimerEvent: {}
+[151.248587] (-) TimerEvent: {}
+[151.349268] (-) TimerEvent: {}
+[151.449924] (-) TimerEvent: {}
+[151.550459] (-) TimerEvent: {}
+[151.651057] (-) TimerEvent: {}
+[151.751662] (-) TimerEvent: {}
+[151.852214] (-) TimerEvent: {}
+[151.952876] (-) TimerEvent: {}
+[152.053460] (-) TimerEvent: {}
+[152.154013] (-) TimerEvent: {}
+[152.254613] (-) TimerEvent: {}
+[152.355188] (-) TimerEvent: {}
+[152.455803] (-) TimerEvent: {}
+[152.556370] (-) TimerEvent: {}
+[152.656885] (-) TimerEvent: {}
+[152.757482] (-) TimerEvent: {}
+[152.858168] (-) TimerEvent: {}
+[152.958746] (-) TimerEvent: {}
+[153.059306] (-) TimerEvent: {}
+[153.159890] (-) TimerEvent: {}
+[153.260544] (-) TimerEvent: {}
+[153.361111] (-) TimerEvent: {}
+[153.461823] (-) TimerEvent: {}
+[153.562364] (-) TimerEvent: {}
+[153.663006] (-) TimerEvent: {}
+[153.763629] (-) TimerEvent: {}
+[153.864284] (-) TimerEvent: {}
+[153.965122] (-) TimerEvent: {}
+[154.065723] (-) TimerEvent: {}
+[154.166335] (-) TimerEvent: {}
+[154.266967] (-) TimerEvent: {}
+[154.367586] (-) TimerEvent: {}
+[154.468255] (-) TimerEvent: {}
+[154.568848] (-) TimerEvent: {}
+[154.669441] (-) TimerEvent: {}
+[154.769995] (-) TimerEvent: {}
+[154.870569] (-) TimerEvent: {}
+[154.971111] (-) TimerEvent: {}
+[155.071713] (-) TimerEvent: {}
+[155.172265] (-) TimerEvent: {}
+[155.272855] (-) TimerEvent: {}
+[155.373477] (-) TimerEvent: {}
+[155.474154] (-) TimerEvent: {}
+[155.574747] (-) TimerEvent: {}
+[155.675337] (-) TimerEvent: {}
+[155.775921] (-) TimerEvent: {}
+[155.876622] (-) TimerEvent: {}
+[155.977499] (-) TimerEvent: {}
+[156.078101] (-) TimerEvent: {}
+[156.178788] (-) TimerEvent: {}
+[156.279462] (-) TimerEvent: {}
+[156.380300] (-) TimerEvent: {}
+[156.481130] (-) TimerEvent: {}
+[156.581829] (-) TimerEvent: {}
+[156.682672] (-) TimerEvent: {}
+[156.783549] (-) TimerEvent: {}
+[156.884522] (-) TimerEvent: {}
+[156.985488] (-) TimerEvent: {}
+[157.086642] (-) TimerEvent: {}
+[157.187268] (-) TimerEvent: {}
+[157.287895] (-) TimerEvent: {}
+[157.388572] (-) TimerEvent: {}
+[157.489179] (-) TimerEvent: {}
+[157.589793] (-) TimerEvent: {}
+[157.690393] (-) TimerEvent: {}
+[157.791093] (-) TimerEvent: {}
+[157.891719] (-) TimerEvent: {}
+[157.992270] (-) TimerEvent: {}
+[158.092815] (-) TimerEvent: {}
+[158.193364] (-) TimerEvent: {}
+[158.293918] (-) TimerEvent: {}
+[158.394468] (-) TimerEvent: {}
+[158.495033] (-) TimerEvent: {}
+[158.595603] (-) TimerEvent: {}
+[158.696192] (-) TimerEvent: {}
+[158.796815] (-) TimerEvent: {}
+[158.897472] (-) TimerEvent: {}
+[158.998159] (-) TimerEvent: {}
+[159.098844] (-) TimerEvent: {}
+[159.199549] (-) TimerEvent: {}
+[159.300237] (-) TimerEvent: {}
+[159.400897] (-) TimerEvent: {}
+[159.501541] (-) TimerEvent: {}
+[159.602178] (-) TimerEvent: {}
+[159.703057] (-) TimerEvent: {}
+[159.803689] (-) TimerEvent: {}
+[159.904281] (-) TimerEvent: {}
+[160.004850] (-) TimerEvent: {}
+[160.105472] (-) TimerEvent: {}
+[160.206065] (-) TimerEvent: {}
+[160.306679] (-) TimerEvent: {}
+[160.407257] (-) TimerEvent: {}
+[160.507843] (-) TimerEvent: {}
+[160.608445] (-) TimerEvent: {}
+[160.709043] (-) TimerEvent: {}
+[160.809595] (-) TimerEvent: {}
+[160.910188] (-) TimerEvent: {}
+[161.010940] (-) TimerEvent: {}
+[161.111506] (-) TimerEvent: {}
+[161.212090] (-) TimerEvent: {}
+[161.312766] (-) TimerEvent: {}
+[161.413417] (-) TimerEvent: {}
+[161.514079] (-) TimerEvent: {}
+[161.614877] (-) TimerEvent: {}
+[161.715457] (-) TimerEvent: {}
+[161.816117] (-) TimerEvent: {}
+[161.916860] (-) TimerEvent: {}
+[162.017806] (-) TimerEvent: {}
+[162.118680] (-) TimerEvent: {}
+[162.219532] (-) TimerEvent: {}
+[162.320261] (-) TimerEvent: {}
+[162.420968] (-) TimerEvent: {}
+[162.521498] (-) TimerEvent: {}
+[162.622030] (-) TimerEvent: {}
+[162.722583] (-) TimerEvent: {}
+[162.765440] (stage_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable stage_ros2\x1b[0m\n'}
+[162.822707] (-) TimerEvent: {}
+[162.923332] (-) TimerEvent: {}
+[163.024194] (-) TimerEvent: {}
+[163.125155] (-) TimerEvent: {}
+[163.226131] (-) TimerEvent: {}
+[163.327259] (-) TimerEvent: {}
+[163.428489] (-) TimerEvent: {}
+[163.529511] (-) TimerEvent: {}
+[163.630489] (-) TimerEvent: {}
+[163.731568] (-) TimerEvent: {}
+[163.832521] (-) TimerEvent: {}
+[163.933468] (-) TimerEvent: {}
+[164.034445] (-) TimerEvent: {}
+[164.135501] (-) TimerEvent: {}
+[164.236399] (-) TimerEvent: {}
+[164.337168] (-) TimerEvent: {}
+[164.438088] (-) TimerEvent: {}
+[164.538874] (-) TimerEvent: {}
+[164.639651] (-) TimerEvent: {}
+[164.740614] (-) TimerEvent: {}
+[164.834612] (stage_ros2) StdoutLine: {'line': b'[100%] Built target stage_ros2\n'}
+[164.840793] (-) TimerEvent: {}
+[164.875057] (stage_ros2) CommandEnded: {'returncode': 0}
+[164.877324] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'install'}
+[164.880984] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rafaella/ros2_ws/build/stage_ros2'], 'cwd': '/home/rafaella/ros2_ws/build/stage_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:pt:en'), ('USER', 'rafaella'), ('ROS_PACKAGE_PATH', '/home/rafaella/ros2_ws/install/stage/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rafaella/ros2_ws/install/Stage/lib:/home/rafaella/ros2_ws/install/stage_ros2/lib:/home/rafaella/ros2_ws/install/stage/lib:/home/rafaella/ros2_ws/install/example_interfaces/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rafaella'), ('OLDPWD', '/home/rafaella/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2056'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rafaella/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rafaella'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/rafaella/ros2_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/rafaella/ros2_ws/install/stage/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rafaella'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rafaella/ros2_ws/install/Stage/bin:/home/rafaella/ros2_ws/install/stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rafaella:@/tmp/.ICE-unix/1799,unix/rafaella:/tmp/.ICE-unix/1799'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4f3fe70c_d46a_407c_9b22_1f1a119c5e00'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KMRR72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/trab_stage_pkg:/home/rafaella/ros2_ws/install/example_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rafaella/ros2_ws/build/stage_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rafaella/ros2_ws/install/trab_stage_pkg/lib/python3.10/site-packages:/home/rafaella/ros2_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rafaella/ros2_ws/install/Stage:/home/rafaella/ros2_ws/install/stage_ros2:/home/rafaella/ros2_ws/install/stage:/home/rafaella/ros2_ws/install/example_interfaces:/home/rafaella/ros2_ws/install/trab_stage_pkg:/opt/ros/humble')]), 'shell': False}
+[164.910531] (stage_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[164.913025] (stage_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[164.914413] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/environment/library_path.sh\n'}
+[164.941018] (-) TimerEvent: {}
+[164.944586] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/environment/library_path.dsv\n'}
+[164.976859] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//launch/demo.launch.py\n'}
+[165.009478] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//launch/f710.launch.py\n'}
+[165.038341] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//launch/rviz.launch.py\n'}
+[165.041151] (-) TimerEvent: {}
+[165.068923] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//launch/rviz_ns.launch.py\n'}
+[165.101906] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//launch/stage.launch.py\n'}
+[165.135814] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/cave.png\n'}
+[165.141336] (-) TimerEvent: {}
+[165.166288] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.pgm\n'}
+[165.198240] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.png\n'}
+[165.227917] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/line.png\n'}
+[165.241530] (-) TimerEvent: {}
+[165.257508] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/straden.png\n'}
+[165.287812] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse008.pgm\n'}
+[165.317508] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse032.pgm\n'}
+[165.341742] (-) TimerEvent: {}
+[165.347223] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse200.pgm\n'}
+[165.379207] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/willow-full.pgm\n'}
+[165.412128] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/cave.world\n'}
+[165.441944] (-) TimerEvent: {}
+[165.442820] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/cave_seven_robots.world\n'}
+[165.473887] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/cave_three_robots.world\n'}
+[165.505140] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/hallway.world\n'}
+[165.535096] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/include/pioneer2dx.inc\n'}
+[165.542122] (-) TimerEvent: {}
+[165.564984] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/include/robots.inc\n'}
+[165.597233] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/lines.world\n'}
+[165.627044] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/straden.world\n'}
+[165.642316] (-) TimerEvent: {}
+[165.657081] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//world/willow-four-erratics-multisensor.world\n'}
+[165.690029] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave.rviz\n'}
+[165.721000] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave_seven_robots.rviz\n'}
+[165.742526] (-) TimerEvent: {}
+[165.750976] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave_three_robots.rviz\n'}
+[165.782324] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/lines.rviz\n'}
+[165.812349] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot0.rviz\n'}
+[165.842000] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns.rviz\n'}
+[165.842546] (-) TimerEvent: {}
+[165.871309] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns_depth.rviz\n'}
+[165.902120] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy/f710.config.yaml\n'}
+[165.935158] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/lib/libstage_node.so\n'}
+[165.942741] (-) TimerEvent: {}
+[165.970807] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/lib/stage_ros2/stage_ros2\n'}
+[166.003654] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2\n'}
+[166.034376] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2\n'}
+[166.042884] (-) TimerEvent: {}
+[166.064955] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh\n'}
+[166.097423] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv\n'}
+[166.128126] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/environment/path.sh\n'}
+[166.143058] (-) TimerEvent: {}
+[166.158377] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/environment/path.dsv\n'}
+[166.191210] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.bash\n'}
+[166.221757] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.sh\n'}
+[166.243285] (-) TimerEvent: {}
+[166.253100] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.zsh\n'}
+[166.284439] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.dsv\n'}
+[166.318662] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/package.dsv\n'}
+[166.343495] (-) TimerEvent: {}
+[166.352385] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2\n'}
+[166.384253] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake\n'}
+[166.415971] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake\n'}
+[166.443669] (-) TimerEvent: {}
+[166.446220] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/rafaella/ros2_ws/install/stage_ros2/share/stage_ros2/package.xml\n'}
+[166.486480] (stage_ros2) CommandEnded: {'returncode': 0}
+[166.544444] (stage_ros2) JobEnded: {'identifier': 'stage_ros2', 'rc': 0}
+[166.546887] (-) TimerEvent: {}
+[166.547210] (-) EventReactorShutdown: {}

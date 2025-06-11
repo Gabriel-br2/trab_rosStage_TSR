@@ -1,0 +1,228 @@
+[0.050s] Invoking command in '/home/rafaella/ros2_ws/build/stage': /usr/bin/cmake --build /home/rafaella/ros2_ws/build/stage -- -j4 -l4
+[0.111s] -- Stage version 4.3.0
+[0.113s] -- Operating system is Linux
+[0.115s] -- Installing Libraries to /home/rafaella/ros2_ws/install/stage/lib
+[0.116s] -- Installing Plugins to /home/rafaella/ros2_ws/install/stage/lib/Stage-4.3
+[0.118s] -- Build type RELEASE
+[0.120s] -- Checking for libtool
+[0.122s] -- Checking for required libraries...
+[0.424s] -- Checking for optional libraries...
+[0.431s] -- Installation path CMAKE_INSTALL_PREFIX=/home/rafaella/ros2_ws/install/stage
+[0.432s] -- Configuring libstage
+[0.452s] -- Checking for one of the modules 'playercore>=2.1.0'
+[0.462s] --   * Player not detected. If Player is installed but not detected, check your PKG_CONFIG_PATH.
+[0.488s] -- Configuring done
+[0.767s] -- Generating done
+[0.830s] -- Build files have been written to: /home/rafaella/ros2_ws/build/stage
+[0.969s] [35m[1mConsolidate compiler generated dependencies of target stage[0m
+[1.142s] [  1%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/block.cc.o[0m
+[1.156s] [  3%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/camera.cc.o[0m
+[1.176s] [  5%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/color.cc.o[0m
+[1.189s] [  6%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/blockgroup.cc.o[0m
+[10.704s] [  8%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/file_manager.cc.o[0m
+[11.906s] [ 10%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/gl.cc.o[0m
+[15.696s] [ 11%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/logentry.cc.o[0m
+[16.044s] [ 13%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model.cc.o[0m
+[22.500s] [ 15%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_actuator.cc.o[0m
+[25.568s] [ 16%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_blinkenlight.cc.o[0m
+[28.743s] [ 18%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_blobfinder.cc.o[0m
+[42.358s] [ 20%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_camera.cc.o[0m
+[54.270s] [ 22%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_draw.cc.o[0m
+[67.058s] [ 23%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_fiducial.cc.o[0m
+[75.520s] [ 25%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_gripper.cc.o[0m
+[80.230s] [ 27%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_lightindicator.cc.o[0m
+[83.702s] [ 28%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_position.cc.o[0m
+[88.842s] [ 30%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_ranger.cc.o[0m
+[93.915s] [ 32%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/option.cc.o[0m
+[97.548s] [ 33%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/powerpack.cc.o[0m
+[101.683s] [ 35%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/region.cc.o[0m
+[104.731s] [ 37%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/stage.cc.o[0m
+[106.839s] [ 38%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_callbacks.cc.o[0m
+[109.027s] [ 40%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/texture_manager.cc.o[0m
+[111.095s] [ 42%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_bumper.cc.o[0m
+[112.764s] [ 44%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/typetable.cc.o[0m
+[113.575s] [ 45%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/world.cc.o[0m
+[120.222s] [ 47%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/options_dlg.cc.o[0m
+[121.259s] [ 49%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/canvas.cc.o[0m
+[122.321s] [ 50%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldfile.cc.o[0m
+[123.021s] [ 52%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/vis_strip.cc.o[0m
+[130.386s] [ 54%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/ancestor.cc.o[0m
+[133.797s] [ 55%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldgui.cc.o[0m
+[138.118s] [ 57%] [32m[1mLinking CXX shared library libstage.so[0m
+[138.789s] [ 57%] Built target stage
+[138.823s] [35m[1mConsolidate compiler generated dependencies of target stagebinary[0m
+[138.824s] [35m[1mConsolidate compiler generated dependencies of target fasr[0m
+[138.869s] [ 59%] [32mBuilding CXX object examples/ctrl/CMakeFiles/fasr.dir/fasr.cc.o[0m
+[138.870s] [ 61%] [32mBuilding CXX object libstage/CMakeFiles/stagebinary.dir/main.cc.o[0m
+[139.895s] [35m[1mConsolidate compiler generated dependencies of target sink[0m
+[139.900s] [35m[1mConsolidate compiler generated dependencies of target source[0m
+[139.961s] [ 62%] [32mBuilding CXX object examples/ctrl/CMakeFiles/sink.dir/sink.cc.o[0m
+[139.968s] [ 64%] [32mBuilding CXX object examples/ctrl/CMakeFiles/source.dir/source.cc.o[0m
+[143.963s] [ 66%] [32m[1mLinking CXX executable stage[0m
+[144.708s] [ 66%] Built target stagebinary
+[144.714s] [ 67%] [32m[1mLinking CXX shared module fasr.so[0m
+[144.767s] [35m[1mConsolidate compiler generated dependencies of target wander[0m
+[144.834s] [ 69%] [32mBuilding CXX object examples/ctrl/CMakeFiles/wander.dir/wander.cc.o[0m
+[145.305s] [ 69%] Built target fasr
+[145.353s] [35m[1mConsolidate compiler generated dependencies of target pioneer_flocking[0m
+[145.422s] [ 71%] [32mBuilding CXX object examples/ctrl/CMakeFiles/pioneer_flocking.dir/pioneer_flocking.cc.o[0m
+[145.812s] [ 72%] [32m[1mLinking CXX shared module sink.so[0m
+[146.462s] [ 72%] Built target sink
+[146.523s] [35m[1mConsolidate compiler generated dependencies of target rasterize[0m
+[146.604s] [ 74%] [32mBuilding CXX object examples/ctrl/CMakeFiles/rasterize.dir/rasterize.cc.o[0m
+[146.713s] [ 76%] [32m[1mLinking CXX shared module source.so[0m
+[147.230s] [ 76%] Built target source
+[147.279s] [35m[1mConsolidate compiler generated dependencies of target lasernoise[0m
+[147.344s] [ 77%] [32mBuilding CXX object examples/ctrl/CMakeFiles/lasernoise.dir/lasernoise.cc.o[0m
+[151.276s] [ 79%] [32m[1mLinking CXX shared module pioneer_flocking.so[0m
+[151.341s] [ 81%] [32m[1mLinking CXX shared module wander.so[0m
+[151.991s] [ 81%] Built target pioneer_flocking
+[152.003s] [ 81%] Built target wander
+[152.060s] [35m[1mConsolidate compiler generated dependencies of target dynamic[0m
+[152.064s] [35m[1mConsolidate compiler generated dependencies of target fasr2[0m
+[152.132s] [ 83%] [32mBuilding CXX object examples/ctrl/CMakeFiles/dynamic.dir/dynamic.cc.o[0m
+[152.145s] [ 84%] [32mBuilding CXX object examples/ctrl/CMakeFiles/fasr2.dir/fasr2.cc.o[0m
+[152.610s] [ 86%] [32m[1mLinking CXX shared module rasterize.so[0m
+[153.099s] [ 86%] Built target rasterize
+[153.159s] [35m[1mConsolidate compiler generated dependencies of target expand_swarm[0m
+[153.231s] [ 88%] [32mBuilding CXX object worlds/benchmark/CMakeFiles/expand_swarm.dir/expand_swarm.cc.o[0m
+[153.460s] [ 89%] [32m[1mLinking CXX shared module lasernoise.so[0m
+[154.001s] [ 89%] Built target lasernoise
+[154.054s] [35m[1mConsolidate compiler generated dependencies of target expand_pioneer[0m
+[154.138s] [ 91%] [32mBuilding CXX object worlds/benchmark/CMakeFiles/expand_pioneer.dir/expand_pioneer.cc.o[0m
+[158.315s] [ 93%] [32m[1mLinking CXX shared module dynamic.so[0m
+[158.908s] [ 93%] Built target dynamic
+[158.970s] [ 94%] [32mBuilding CXX object examples/ctrl/CMakeFiles/fasr2.dir/astar/findpath.cpp.o[0m
+[159.817s] [ 96%] [32m[1mLinking CXX shared module expand_swarm.so[0m
+[160.380s] [ 98%] [32m[1mLinking CXX shared module expand_pioneer.so[0m
+[160.430s] [ 98%] Built target expand_swarm
+[160.882s] [ 98%] Built target expand_pioneer
+[162.316s] [100%] [32m[1mLinking CXX shared module fasr2.so[0m
+[162.861s] [100%] Built target fasr2
+[162.933s] Invoked command in '/home/rafaella/ros2_ws/build/stage' returned '0': /usr/bin/cmake --build /home/rafaella/ros2_ws/build/stage -- -j4 -l4
+[162.942s] Invoking command in '/home/rafaella/ros2_ws/build/stage': /usr/bin/cmake --install /home/rafaella/ros2_ws/build/stage
+[162.980s] -- Install configuration: "RELEASE"
+[162.980s] -- Up-to-date: /home/rafaella/ros2_ws/install/stage/lib/pkgconfig/stage.pc
+[162.981s] -- Installing: /home/rafaella/ros2_ws/install/stage/lib/cmake/Stage/stage-config.cmake
+[162.981s] -- Up-to-date: /home/rafaella/ros2_ws/install/stage/lib/cmake/Stage/stage-config-version.cmake
+[162.983s] -- Installing: /home/rafaella/ros2_ws/install/stage/bin/stage
+[162.985s] -- Set runtime path of "/home/rafaella/ros2_ws/install/stage/bin/stage" to ""
+[162.986s] -- Installing: /home/rafaella/ros2_ws/install/stage/lib/libstage.so.4.3.0
+[162.990s] -- Up-to-date: /home/rafaella/ros2_ws/install/stage/lib/libstage.so
+[162.991s] -- Installing: /home/rafaella/ros2_ws/install/stage/include/Stage-4.3/stage.hh
+[162.993s] -- Installing: /home/rafaella/ros2_ws/install/stage/lib/Stage-4.3/fasr.so
+[162.996s] -- Set runtime path of "/home/rafaella/ros2_ws/install/stage/lib/Stage-4.3/fasr.so" to ""
+[162.997s] -- Installing: /home/rafaella/ros2_ws/install/stage/lib/Stage-4.3/sink.so
+[162.999s] -- Set runtime path of "/home/rafaella/ros2_ws/install/stage/lib/Stage-4.3/sink.so" to ""
+[162.999s] -- Installing: /home/rafaella/ros2_ws/install/stage/lib/Stage-4.3/source.so
+[163.001s] -- Set runtime path of "/home/rafaella/ros2_ws/install/stage/lib/Stage-4.3/source.so" to ""
+[163.002s] -- Installing: /home/rafaella/ros2_ws/install/stage/lib/Stage-4.3/wander.so
+[163.004s] -- Set runtime path of "/home/rafaella/ros2_ws/install/stage/lib/Stage-4.3/wander.so" to ""
+[163.004s] -- Installing: /home/rafaella/ros2_ws/install/stage/lib/Stage-4.3/pioneer_flocking.so
+[163.006s] -- Set runtime path of "/home/rafaella/ros2_ws/install/stage/lib/Stage-4.3/pioneer_flocking.so" to ""
+[163.007s] -- Installing: /home/rafaella/ros2_ws/install/stage/lib/Stage-4.3/rasterize.so
+[163.008s] -- Set runtime path of "/home/rafaella/ros2_ws/install/stage/lib/Stage-4.3/rasterize.so" to ""
+[163.009s] -- Installing: /home/rafaella/ros2_ws/install/stage/lib/Stage-4.3/lasernoise.so
+[163.012s] -- Set runtime path of "/home/rafaella/ros2_ws/install/stage/lib/Stage-4.3/lasernoise.so" to ""
+[163.013s] -- Installing: /home/rafaella/ros2_ws/install/stage/lib/Stage-4.3/dynamic.so
+[163.016s] -- Set runtime path of "/home/rafaella/ros2_ws/install/stage/lib/Stage-4.3/dynamic.so" to ""
+[163.016s] -- Installing: /home/rafaella/ros2_ws/install/stage/lib/Stage-4.3/fasr2.so
+[163.018s] -- Set runtime path of "/home/rafaella/ros2_ws/install/stage/lib/Stage-4.3/fasr2.so" to ""
+[163.019s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/assets/blue.png
+[163.020s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/assets/death.png
+[163.020s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/assets/green.png
+[163.021s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/assets/logo.png
+[163.021s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/assets/mains.png
+[163.022s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/assets/mainspower.png
+[163.023s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/assets/question_mark.png
+[163.023s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/assets/red.png
+[163.024s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/assets/stagelogo.png
+[163.025s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/assets/stall-old.png
+[163.025s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/assets/stall.png
+[163.026s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/assets/rgb.txt
+[163.027s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/rgb.txt
+[163.028s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/amcl-sonar.cfg
+[163.029s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/autolab.cfg
+[163.029s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/camera.cfg
+[163.030s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/everything.cfg
+[163.030s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/lsp_test.cfg
+[163.031s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/mbicp.cfg
+[163.031s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/nd.cfg
+[163.032s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/roomba.cfg
+[163.032s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/simple.cfg
+[163.033s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/test.cfg
+[163.033s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/uoa_robotics_lab.cfg
+[163.034s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/vfh.cfg
+[163.034s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/wavefront-remote.cfg
+[163.035s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/wavefront.cfg
+[163.035s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/wifi.cfg
+[163.036s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/SFU.world
+[163.036s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/autolab.world
+[163.037s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/camera.world
+[163.037s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/circuit.world
+[163.038s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/everything.world
+[163.038s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/fasr.world
+[163.039s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/fasr2.world
+[163.039s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/fasr_plan.world
+[163.040s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/large.world
+[163.040s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/lsp_test.world
+[163.041s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/mbicp.world
+[163.041s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/pioneer_flocking.world
+[163.042s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/pioneer_follow.world
+[163.043s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/pioneer_walle.world
+[163.043s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/roomba.world
+[163.043s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/sensor_noise_demo.world
+[163.044s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/sensor_noise_module_demo.world
+[163.045s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/simple.world
+[163.045s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/uoa_robotics_lab.world
+[163.046s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/wifi.world
+[163.046s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/beacons.inc
+[163.047s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/chatterbox.inc
+[163.047s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/hokuyo.inc
+[163.048s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/irobot.inc
+[163.048s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/map.inc
+[163.048s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/objects.inc
+[163.049s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/pantilt.inc
+[163.049s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/pioneer.inc
+[163.050s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/sick.inc
+[163.050s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/ubot.inc
+[163.051s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/uoa_robotics_lab_models.inc
+[163.051s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/walle.inc
+[163.052s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/cfggen.sh
+[163.052s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/test.sh
+[163.053s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/worldgen.sh
+[163.055s] -- Installing: /home/rafaella/ros2_ws/install/stage/lib/Stage-4.3/expand_swarm.so
+[163.056s] -- Set runtime path of "/home/rafaella/ros2_ws/install/stage/lib/Stage-4.3/expand_swarm.so" to ""
+[163.057s] -- Installing: /home/rafaella/ros2_ws/install/stage/lib/Stage-4.3/expand_pioneer.so
+[163.058s] -- Set runtime path of "/home/rafaella/ros2_ws/install/stage/lib/Stage-4.3/expand_pioneer.so" to ""
+[163.059s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/bitmaps/889_05.png
+[163.060s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/bitmaps/SFU_1200x615.png
+[163.061s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/bitmaps/SRI-AIC-kwing.png
+[163.061s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/bitmaps/autolab.png
+[163.062s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/bitmaps/cave.png
+[163.062s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/bitmaps/cave_compact.png
+[163.063s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/bitmaps/cave_filled.png
+[163.063s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/bitmaps/frieburg.png
+[163.064s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/bitmaps/ghost.png
+[163.064s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/bitmaps/hospital.png
+[163.065s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/bitmaps/hospital_section.png
+[163.065s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/bitmaps/human_outline.png
+[163.065s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/bitmaps/mbicp.png
+[163.066s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/bitmaps/rink.png
+[163.066s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/bitmaps/sal2.png
+[163.067s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/bitmaps/simple_rooms.png
+[163.067s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/bitmaps/space_invader.png
+[163.068s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/bitmaps/submarine.png
+[163.069s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/bitmaps/submarine_small.png
+[163.069s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/bitmaps/table.png
+[163.069s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/bitmaps/uoa_robotics_lab.png
+[163.074s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/wifi/commando.world
+[163.074s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/wifi/hosp_wifi.world
+[163.074s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/wifi/hosp_wifi_5.world
+[163.075s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/wifi/wifi.world
+[163.075s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/wifi/wifi_itu.world
+[163.075s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/wifi/wifi_logdistance.world
+[163.076s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/wifi/wifi_ray.world
+[163.076s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/wifi/wifi_simple.world
+[163.077s] -- Installing: /home/rafaella/ros2_ws/install/stage/share/stage/worlds/wifi/map.inc
+[163.078s] Invoked command in '/home/rafaella/ros2_ws/build/stage' returned '0': /usr/bin/cmake --install /home/rafaella/ros2_ws/build/stage
